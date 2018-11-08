@@ -16,9 +16,18 @@ public class PickUpStuff_ML : MonoBehaviour
 
 	private float checkFrequency;
 
+    public float startBallSize;
+
+    public Transform balltrans;
+
+    public float scalingVar;
+
+    //public float mass;
+
 	void Start()
 	{
 		rBody = GetComponent<Rigidbody>();
+        //mass = GetComponent<SizeKG>().mass;
 	}
 	
 	// Update is called once per frame
@@ -31,6 +40,7 @@ public class PickUpStuff_ML : MonoBehaviour
 
 		rBody.velocity = inputVector; // set the velocity
 
+        Debug.Log("BallSize = " + ballSize);
 
 
 
@@ -60,14 +70,24 @@ public class PickUpStuff_ML : MonoBehaviour
 	{
 		GameObject otherObject = coll.gameObject; // the gameobject of the thing we collided with
 
-		// check to see if the other object is collectible;
-		if (otherObject.CompareTag("Item"))
-		{
-			// check the size here... later
-			
-			// collect the object!
-			otherObject.transform.parent = transform; // set the objects parent to this transform
-		}
+
+        // check to see if the other object is collectible;
+        if (otherObject.CompareTag("Item"))
+        {
+            float masss = coll.gameObject.GetComponent<SizeKG>().mass;
+            // check the size here... later
+            if (masss <= ballSize)
+            {
+                // collect the object!
+                otherObject.transform.parent = transform; // set the objects parent to this transform
+                ballSize += masss;
+                otherObject.tag = "PickedUpItem";
+                if (ballSize > startBallSize)
+                {
+                    balltrans.localScale *= scalingVar;
+                }
+            }
+        }
 	}
 	
 	/*
