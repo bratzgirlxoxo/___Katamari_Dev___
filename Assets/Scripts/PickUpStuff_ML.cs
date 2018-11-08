@@ -22,40 +22,19 @@ public class PickUpStuff_ML : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update()
+	{
 		// move the ball around.... THIS IS JUST FOR TESTING...
 		float horizontalInput = Input.GetAxis("Horizontal"); // get horizontal key input
 		float verticalInput = Input.GetAxis("Vertical"); // get vertical key input
-		
+
 		Vector3 inputVector = new Vector3(horizontalInput, 0f, verticalInput); // combine the inputs
 
 		rBody.velocity = inputVector; // set the velocity
 
-
-
-
-		/*
-		checkCounter += Time.deltaTime;
-
-		if (checkCounter >= checkFrequency)
-		{
-			checkCounter = 0;
-
-			for (int i = 0; i < transform.childCount; i++)
-			{
-				float t = 0f;
-				while (Vector3.Distance(transform.GetChild(i).position, transform.position) > GetComponent<SphereCollider>().radius)
-				{
-					Vector3.Lerp(transform.GetChild(i).position, transform.position, t);
-					t += 0.1f;
-				}	
-			}
-		}
-		*/
-		
 	}
 
-	
+
 	void OnCollisionEnter(Collision coll)
 	{
 		GameObject otherObject = coll.gameObject; // the gameobject of the thing we collided with
@@ -64,26 +43,10 @@ public class PickUpStuff_ML : MonoBehaviour
 		if (otherObject.CompareTag("Item"))
 		{
 			// check the size here... later
-			
-			// collect the object!
-			otherObject.transform.parent = transform; // set the objects parent to this transform
-		}
-	}
-	
-	/*
-	void OnTriggerEnter(Collider coll)
-	{
-		GameObject otherObject = coll.gameObject; // the gameobject of the thing we collided with
 
-		// check to see if the other object is collectible;
-		if (otherObject.CompareTag("Item"))
-		{
-			// check the size here... later
-			
-			
 			// collect the object!
 			otherObject.transform.parent = transform; // set the objects parent to this transform
+			otherObject.GetComponent<SphereCollider>().radius = 0.15f;
 		}
 	}
-	*/
 }
