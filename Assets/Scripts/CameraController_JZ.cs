@@ -20,6 +20,11 @@ public class CameraController_JZ : MonoBehaviour
 		relativeDistance = transform.position - ballPos.transform.position;
 	}
 
+	void Update()
+	{
+		transform.position = ballPos.transform.position;
+	}
+
 	void LateUpdate () {
 		
 		// CAMERA POSITION:
@@ -54,7 +59,3 @@ public class CameraController_JZ : MonoBehaviour
 		relativeDistance = transform.position - ballPos.transform.position;
 	}
 }
-// set camera to ball with offset
-// not child
-// calculate ball, calculate camera, then calculate position of player with midpoint of the two
-// cam = ball.position - ball.forward
