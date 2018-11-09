@@ -22,6 +22,8 @@ public class PickUpStuff_ML : MonoBehaviour
 
     public float scalingVar;
 
+    public float moveSpeed;
+
     //public float mass;
 
 	void Start()
@@ -38,7 +40,7 @@ public class PickUpStuff_ML : MonoBehaviour
 		
 		Vector3 inputVector = new Vector3(horizontalInput, 0f, verticalInput); // combine the inputs
 
-		rBody.velocity = inputVector; // set the velocity
+		rBody.velocity = inputVector * moveSpeed; // set the velocity
 
         Debug.Log("BallSize = " + ballSize);
 
