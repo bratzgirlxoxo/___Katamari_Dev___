@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd98578-30a9-403b-b1ba-960211aa82d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.__Katamari__/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/ballTest_ML.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ballTest_ML.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma" afterPath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,69 +14,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PickUpStuff_ML.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
+      <file leaf-file-name="CamForward.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1018">
-              <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
-              <folding>
-                <marker date="1541709452689" expanded="false" signature="6:114" ph="..." />
-                <marker date="1541709452689" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-                <marker date="1541709452689" expanded="true" signature="291:1347" ph="{...}" />
-                <marker date="1541709452689" expanded="true" signature="422:465" ph="{...}" />
-                <marker date="1541709452689" expanded="true" signature="518:892" ph="{...}" />
-                <marker date="1541709452689" expanded="true" signature="933:1345" ph="{...}" />
-                <marker date="1541709452689" expanded="true" signature="1121:1342" ph="{...}" />
-                <marker date="1541709452689" expanded="true" signature="1129:1187" ph="/* check the size here... later ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player_movement_Load_ML.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <marker date="1541710687203" expanded="false" signature="6:78" ph="..." />
-                <marker date="1541710687203" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
-                <marker date="1541710687203" expanded="true" signature="305:2725" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="711:754" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="809:1795" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="854:883" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="890:920" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="929:994" ph="/* if squirrel is on flat ground... use gravity ... */" />
-                <marker date="1541710687203" expanded="true" signature="1011:1047" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="1054:1091" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="1103:1141" ph="/* MOUSE LOOK ... */" />
-                <marker date="1541710687203" expanded="true" signature="1773:1792" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="1817:2315" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="1935:1993" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="2000:2060" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="2078:2224" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="2231:2306" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="2329:2422" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="2444:2723" ph="{...}" />
-                <marker date="1541710687203" expanded="true" signature="2678:2720" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Timer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <marker date="1541707492261" expanded="false" signature="6:202" ph="..." />
-                <marker date="1541707492261" expanded="true" signature="239:798" ph="{...}" />
-                <marker date="1541707492261" expanded="true" signature="243:450" ph="/* INTENT: Timer that will count down in the upper right of the screen. When it hits zero it ... */" />
-                <marker date="1541707492261" expanded="true" signature="551:558" ph="{...}" />
-                <marker date="1541707492261" expanded="true" signature="613:796" ph="{...}" />
-                <marker date="1541707492261" expanded="true" signature="754:793" ph="{...}" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -243,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541706782273</updated>
-      <workItem from="1541706790506" duration="3511000" />
+      <workItem from="1541706790506" duration="3517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3511000" />
+    <option name="totallyTimeSpent" value="3517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,6 +290,14 @@
             <marker date="1541710687203" expanded="true" signature="2444:2723" ph="{...}" />
             <marker date="1541710687203" expanded="true" signature="2678:2720" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
