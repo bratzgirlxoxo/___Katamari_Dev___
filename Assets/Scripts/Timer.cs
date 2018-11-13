@@ -29,6 +29,14 @@ public class Timer : MonoBehaviour {
 
 
 		String timedisplay = ((int) time / 60).ToString(); 
+		 int seconds  = ((int) time % 60);
+		if (seconds < 10)
+		{
+
+			timedisplay += "0";
+		}
+
+		//timedisplay += seconds; 
 
 		myTextDisplay.text = timedisplay;
 		
