@@ -16,7 +16,7 @@ public class SizeKG : MonoBehaviour
 	
 	void Start () 
     {
-        mass = 0f;
+        
 	}
 	
 	
