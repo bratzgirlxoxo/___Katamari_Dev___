@@ -1,56 +1,14 @@
 fileFormatVersion: 2
-guid: 08fae06e1a6e9d945b8f2e9cffd24c1b
+guid: 3251a4058b650184e8ff27818bb9e508
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: head_antenna
-    100004: head_main
-    100006: polySurface1
-    100008: prince_armleft
-    100010: prince_armright
-    100012: prince_head
-    100014: prince_legleft
-    100016: prince_legright
-    100018: prince_torso
     400000: //RootNode
-    400002: head_antenna
-    400004: head_main
-    400006: polySurface1
-    400008: prince_armleft
-    400010: prince_armright
-    400012: prince_head
-    400014: prince_legleft
-    400016: prince_legright
-    400018: prince_torso
     2100000: lambert1
     2300000: //RootNode
-    2300002: head_antenna
-    2300004: head_main
-    2300006: polySurface1
-    2300008: prince_armleft
-    2300010: prince_armright
-    2300012: prince_legleft
-    2300014: prince_legright
-    2300016: prince_torso
     3300000: //RootNode
-    3300002: head_antenna
-    3300004: head_main
-    3300006: polySurface1
-    3300008: prince_armleft
-    3300010: prince_armright
-    3300012: prince_legleft
-    3300014: prince_legright
-    3300016: prince_torso
-    4300000: pSphere3
-    4300002: polySurface1
-    4300004: head_main
-    4300006: head_antenna
-    4300008: prince_torso
-    4300010: prince_armleft
-    4300012: prince_armright
-    4300014: prince_legright
-    4300016: prince_legleft
+    4300000: pCube1
   externalObjects: {}
   materials:
     importMaterials: 1
