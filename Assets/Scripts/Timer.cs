@@ -25,18 +25,10 @@ public class Timer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		time -= Time.deltaTime; 
-		
+		time -= Time.deltaTime;
 
-		String timedisplay = ((int) time / 60).ToString() + ";";
-		 int seconds  = ((int) time % 60);
-		if (seconds < 10)
-		{
 
-			timedisplay += "0";
-		}
-
-		timedisplay += seconds; 
+		String timedisplay = ((int) time / 60).ToString(); 
 
 		myTextDisplay.text = timedisplay;
 		

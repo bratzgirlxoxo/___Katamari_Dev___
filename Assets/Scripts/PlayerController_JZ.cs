@@ -12,10 +12,13 @@ public class PlayerController_JZ : MonoBehaviour
 	public GameObject player;
 	public GameObject cameraPos;
 
+	public Transform cameraTransform;
+
 	// player's transform vector3
-	private Vector3 inputVector;
+	// private Vector3 inputVector;
 	
 	void Update () {
+		/*
 		// PLAYER MOVEMENT:
 		
 		float horizontal = Input.GetAxis("Horizontal"); // A/D, Left/Right
@@ -23,9 +26,11 @@ public class PlayerController_JZ : MonoBehaviour
 		
 		inputVector = transform.forward * vertical; // forward
 		inputVector += transform.right * horizontal; // strafe
-		
+		*/
 		/////////////////////
 		// PLAYER POSITION:
+
+		transform.forward = cameraTransform.forward;
 		
 		// position of player is midpoint of ball and camera with offset
 		Vector3 playerPos = ((transform.position + cameraPos.transform.position) / 2);
@@ -33,9 +38,11 @@ public class PlayerController_JZ : MonoBehaviour
 		// BUG: player jiggles around
 	}
 	
+	/*
 	void FixedUpdate()
 	{
 		// override object's velocity with desired inputVector direction
 		GetComponent<Rigidbody>().velocity = inputVector * moveSpeed + Physics.gravity * 0.69f;
 	}
+	*/
 }
