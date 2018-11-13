@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758566fd-2705-424b-85f5-1ae6d247bf6d" name="Default Changelist" comment="" />
+    <list default="true" id="7f05b00e-06f6-4aa5-b068-6b9fbe3d21c3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,92 +9,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="165736387">
+    <session id="1385938960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="2" />
+          <entry key="cs" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="2" />
+          <entry key="C#" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5" />
+          <entry key="cs" value="250" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5" />
+          <entry key="C#" value="250" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <marker date="1541704948565" expanded="false" signature="6:114" ph="..." />
-                <marker date="1541704948565" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-                <marker date="1541704948565" expanded="true" signature="291:2115" ph="{...}" />
-                <marker date="1541704948565" expanded="true" signature="422:465" ph="{...}" />
-                <marker date="1541704948565" expanded="true" signature="520:1315" ph="{...}" />
-                <marker date="1541704948565" expanded="true" signature="897:1309" ph="/* checkCounter += Time.deltaTime; ... */" />
-                <marker date="1541704948565" expanded="true" signature="1357:1710" ph="{...}" />
-                <marker date="1541704948565" expanded="true" signature="1545:1707" ph="{...}" />
-                <marker date="1541704948565" expanded="true" signature="1553:1614" ph="/* check the size here... later ... */" />
-                <marker date="1541704948565" expanded="true" signature="1714:2113" ph="/* void OnTriggerEnter(Collider coll) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
+            <state relative-caret-position="767">
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding>
-                <marker date="1541704948561" expanded="false" signature="6:117" ph="..." />
-                <marker date="1541704948561" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-                <marker date="1541704948561" expanded="true" signature="307:1547" ph="{...}" />
-                <marker date="1541704948561" expanded="true" signature="471:547" ph="{...}" />
-                <marker date="1541704948561" expanded="true" signature="569:1257" ph="{...}" />
-                <marker date="1541704948561" expanded="true" signature="576:840" ph="/* CAMERA POSITION: ... */" />
-                <marker date="1541704948561" expanded="true" signature="849:966" ph="/* CAMERA ROTATION: ... */" />
-                <marker date="1541704948561" expanded="true" signature="997:1088" ph="{...}" />
-                <marker date="1541704948561" expanded="true" signature="1170:1254" ph="{...}" />
-                <marker date="1541704948561" expanded="true" signature="1300:1545" ph="{...}" />
-                <marker date="1541704948561" expanded="true" signature="1548:1728" ph="/* set camera to ball with offset ... */" />
+                <marker date="1541713483798" expanded="false" signature="6:117" ph="..." />
+                <marker date="1541713483798" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+                <marker date="1541713483798" expanded="true" signature="307:1620" ph="{...}" />
+                <marker date="1541713483798" expanded="true" signature="471:547" ph="{...}" />
+                <marker date="1541713483798" expanded="true" signature="563:620" ph="{...}" />
+                <marker date="1541713483798" expanded="true" signature="642:1330" ph="{...}" />
+                <marker date="1541713483798" expanded="true" signature="649:913" ph="/* CAMERA POSITION: ... */" />
+                <marker date="1541713483798" expanded="true" signature="922:1039" ph="/* CAMERA ROTATION: ... */" />
+                <marker date="1541713483798" expanded="true" signature="1070:1161" ph="{...}" />
+                <marker date="1541713483798" expanded="true" signature="1243:1327" ph="{...}" />
+                <marker date="1541713483798" expanded="true" signature="1373:1618" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+            <state relative-caret-position="660">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
               <folding>
-                <marker date="1541707371931" expanded="false" signature="6:202" ph="..." />
-                <marker date="1541707371931" expanded="true" signature="239:917" ph="{...}" />
-                <marker date="1541707371931" expanded="true" signature="243:450" ph="/* INTENT: Timer that will count down in the upper right of the screen. When it hits zero it ... */" />
-                <marker date="1541707371931" expanded="true" signature="551:558" ph="{...}" />
-                <marker date="1541707371931" expanded="true" signature="613:915" ph="{...}" />
-                <marker date="1541707371931" expanded="true" signature="753:785" ph="{...}" />
-                <marker date="1541707371931" expanded="true" signature="873:912" ph="{...}" />
+                <marker date="1541713457580" expanded="false" signature="6:78" ph="..." />
+                <marker date="1541713457580" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
+                <marker date="1541713457580" expanded="true" signature="192:1215" ph="{...}" />
+                <marker date="1541713457580" expanded="true" signature="325:387" ph="/* player's transform vector3 ... */" />
+                <marker date="1541713457580" expanded="true" signature="406:1020" ph="{...}" />
+                <marker date="1541713457580" expanded="true" signature="410:699" ph="/* PLAYER MOVEMENT: ... */" />
+                <marker date="1541713457580" expanded="true" signature="702:745" ph="/* PLAYER POSITION: ... */" />
+                <marker date="1541713457580" expanded="true" signature="1024:1213" ph="/* void FixedUpdate() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding>
+                <marker date="1541707959247" expanded="false" signature="6:78" ph="..." />
+                <marker date="1541707959247" expanded="true" signature="80:218" ph="/* USAGE: put this on a capsule (TMPO PLAYER). -SC ... */" />
+                <marker date="1541707959247" expanded="true" signature="265:1141" ph="{...}" />
+                <marker date="1541707959247" expanded="true" signature="333:371" ph="{...}" />
+                <marker date="1541707959247" expanded="true" signature="427:1139" ph="{...}" />
+                <marker date="1541707959247" expanded="true" signature="433:516" ph="/* WASD and IJKL movement ... */" />
+                <marker date="1541707959247" expanded="true" signature="574:657" ph="{...}" />
+                <marker date="1541707959247" expanded="true" signature="777:824" ph="{...}" />
+                <marker date="1541707959247" expanded="true" signature="938:983" ph="{...}" />
+                <marker date="1541707959247" expanded="true" signature="1098:1136" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,14 +112,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectAlign_ML.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" />
       </list>
     </option>
   </component>
@@ -124,11 +133,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="300" />
-    <option name="y" value="72" />
-    <option name="width" value="1440" />
-    <option name="height" value="855" />
+    <option name="x" value="-10" />
+    <option name="width" value="1522" />
+    <option name="height" value="1932" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -181,17 +190,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="758566fd-2705-424b-85f5-1ae6d247bf6d" name="Default Changelist" comment="" />
-      <created>1541706540462</created>
+      <changelist id="7f05b00e-06f6-4aa5-b068-6b9fbe3d21c3" name="Default Changelist" comment="" />
+      <created>1541706565812</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541706540462</updated>
-      <workItem from="1541706547756" duration="1480000" />
+      <updated>1541706565812</updated>
+      <workItem from="1541706574228" duration="1962000" />
+      <workItem from="1541712470661" duration="1318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1480000" />
+    <option name="totallyTimeSpent" value="3280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,19 +213,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25292096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -223,12 +225,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,56 +260,65 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectAlign_ML.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
-            <marker date="1541704948565" expanded="false" signature="6:114" ph="..." />
-            <marker date="1541704948565" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1541704948565" expanded="true" signature="291:2115" ph="{...}" />
-            <marker date="1541704948565" expanded="true" signature="422:465" ph="{...}" />
-            <marker date="1541704948565" expanded="true" signature="520:1315" ph="{...}" />
-            <marker date="1541704948565" expanded="true" signature="897:1309" ph="/* checkCounter += Time.deltaTime; ... */" />
-            <marker date="1541704948565" expanded="true" signature="1357:1710" ph="{...}" />
-            <marker date="1541704948565" expanded="true" signature="1545:1707" ph="{...}" />
-            <marker date="1541704948565" expanded="true" signature="1553:1614" ph="/* check the size here... later ... */" />
-            <marker date="1541704948565" expanded="true" signature="1714:2113" ph="/* void OnTriggerEnter(Collider coll) ... */" />
+            <marker date="1541707959247" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541707959247" expanded="true" signature="80:218" ph="/* USAGE: put this on a capsule (TMPO PLAYER). -SC ... */" />
+            <marker date="1541707959247" expanded="true" signature="265:1141" ph="{...}" />
+            <marker date="1541707959247" expanded="true" signature="333:371" ph="{...}" />
+            <marker date="1541707959247" expanded="true" signature="427:1139" ph="{...}" />
+            <marker date="1541707959247" expanded="true" signature="433:516" ph="/* WASD and IJKL movement ... */" />
+            <marker date="1541707959247" expanded="true" signature="574:657" ph="{...}" />
+            <marker date="1541707959247" expanded="true" signature="777:824" ph="{...}" />
+            <marker date="1541707959247" expanded="true" signature="938:983" ph="{...}" />
+            <marker date="1541707959247" expanded="true" signature="1098:1136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <marker date="1541713457580" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541713457580" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
+            <marker date="1541713457580" expanded="true" signature="192:1215" ph="{...}" />
+            <marker date="1541713457580" expanded="true" signature="325:387" ph="/* player's transform vector3 ... */" />
+            <marker date="1541713457580" expanded="true" signature="406:1020" ph="{...}" />
+            <marker date="1541713457580" expanded="true" signature="410:699" ph="/* PLAYER MOVEMENT: ... */" />
+            <marker date="1541713457580" expanded="true" signature="702:745" ph="/* PLAYER POSITION: ... */" />
+            <marker date="1541713457580" expanded="true" signature="1024:1213" ph="/* void FixedUpdate() ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
+        <state relative-caret-position="767">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding>
-            <marker date="1541704948561" expanded="false" signature="6:117" ph="..." />
-            <marker date="1541704948561" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1541704948561" expanded="true" signature="307:1547" ph="{...}" />
-            <marker date="1541704948561" expanded="true" signature="471:547" ph="{...}" />
-            <marker date="1541704948561" expanded="true" signature="569:1257" ph="{...}" />
-            <marker date="1541704948561" expanded="true" signature="576:840" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1541704948561" expanded="true" signature="849:966" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1541704948561" expanded="true" signature="997:1088" ph="{...}" />
-            <marker date="1541704948561" expanded="true" signature="1170:1254" ph="{...}" />
-            <marker date="1541704948561" expanded="true" signature="1300:1545" ph="{...}" />
-            <marker date="1541704948561" expanded="true" signature="1548:1728" ph="/* set camera to ball with offset ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-          <folding>
-            <marker date="1541707371931" expanded="false" signature="6:202" ph="..." />
-            <marker date="1541707371931" expanded="true" signature="239:917" ph="{...}" />
-            <marker date="1541707371931" expanded="true" signature="243:450" ph="/* INTENT: Timer that will count down in the upper right of the screen. When it hits zero it ... */" />
-            <marker date="1541707371931" expanded="true" signature="551:558" ph="{...}" />
-            <marker date="1541707371931" expanded="true" signature="613:915" ph="{...}" />
-            <marker date="1541707371931" expanded="true" signature="753:785" ph="{...}" />
-            <marker date="1541707371931" expanded="true" signature="873:912" ph="{...}" />
+            <marker date="1541713483798" expanded="false" signature="6:117" ph="..." />
+            <marker date="1541713483798" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1541713483798" expanded="true" signature="307:1620" ph="{...}" />
+            <marker date="1541713483798" expanded="true" signature="471:547" ph="{...}" />
+            <marker date="1541713483798" expanded="true" signature="563:620" ph="{...}" />
+            <marker date="1541713483798" expanded="true" signature="642:1330" ph="{...}" />
+            <marker date="1541713483798" expanded="true" signature="649:913" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1541713483798" expanded="true" signature="922:1039" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1541713483798" expanded="true" signature="1070:1161" ph="{...}" />
+            <marker date="1541713483798" expanded="true" signature="1243:1327" ph="{...}" />
+            <marker date="1541713483798" expanded="true" signature="1373:1618" ph="{...}" />
           </folding>
         </state>
       </provider>
