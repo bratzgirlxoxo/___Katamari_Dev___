@@ -34,8 +34,11 @@ public class PlayerController_JZ : MonoBehaviour
 		
 		// position of player is midpoint of ball and camera with offset
 		Vector3 playerPos = ((transform.position + cameraPos.transform.position) / 2);
+		playerPos = transform.position - transform.forward * 3f;
+		playerPos = new Vector3(playerPos.x, 0f, playerPos.z);
 		player.transform.position = playerPos;
 		// BUG: player jiggles around
+		player.transform.forward = Camera.main.transform.forward;
 	}
 	
 	/*

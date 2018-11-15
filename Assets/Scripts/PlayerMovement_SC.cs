@@ -30,24 +30,24 @@ public class PlayerMovement_SC : MonoBehaviour
 			// Move forward when 'W' and 'I' are both pressed down.
 			if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.I))
 			{
-				rb.AddForce(Vector3.forward*speed);
+				rb.AddForce(transform.forward*speed);
 			}
 			// Move right when 'D' and 'L' are both pressed down.
 			if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.L))
 			{
-				rb.AddForce(Vector3.right*speed);
+				rb.AddForce(transform.right*speed);
 			}
 
 			// Move left when 'A' and 'J' are both pressed down.
 			if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.J))
 			{
-				rb.AddForce(Vector3.left*speed);
+				rb.AddForce(-transform.right*speed);
 			}
 		
 			// Move back when 'S' and 'K' are both pressed down.
 			if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.K))
 			{
-				rb.AddForce(Vector3.back*speed);
+				rb.AddForce(-transform.forward*speed);
 			}
 		}
 		else

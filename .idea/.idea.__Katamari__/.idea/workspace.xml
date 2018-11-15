@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd98578-30a9-403b-b1ba-960211aa82d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma" afterPath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Audio.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/Lipstick-OH.mb.meta" afterPath="$PROJECT_DIR$/Assets/Models/Lipstick-OH.mb.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma.meta" afterPath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/book_holder_ML.ma.meta" afterPath="$PROJECT_DIR$/Assets/Models/book_holder_ML.ma.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/shogi_ML.ma.meta" afterPath="$PROJECT_DIR$/Assets/Models/shogi_ML.ma.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/teapot_ML.ma.meta" afterPath="$PROJECT_DIR$/Assets/Models/teapot_ML.ma.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/CameraController_JZ.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraController_JZ.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/ballTest_ML.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/ballTest_ML.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +24,77 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CamForward.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="CamForward.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerController_JZ.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="841">
+              <caret line="35" column="86" lean-forward="true" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
+              <folding>
+                <marker date="1542309624174" expanded="true" signature="6:78" ph="..." />
+                <marker date="1542309624174" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
+                <marker date="1542309624174" expanded="true" signature="192:1391" ph="{...}" />
+                <marker date="1542309624174" expanded="true" signature="325:387" ph="/* player's transform vector3 ... */" />
+                <marker date="1542309624174" expanded="true" signature="406:1196" ph="{...}" />
+                <marker date="1542309624174" expanded="true" signature="410:699" ph="/* PLAYER MOVEMENT: ... */" />
+                <marker date="1542309624174" expanded="true" signature="702:745" ph="/* PLAYER POSITION: ... */" />
+                <marker date="1542309624174" expanded="true" signature="1200:1389" ph="/* void FixedUpdate() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerMovement_SC.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+              <folding>
+                <marker date="1542144543386" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542144543386" expanded="true" signature="80:218" ph="/* USAGE: put this on a capsule (TMPO PLAYER). -SC ... */" />
+                <marker date="1542144543386" expanded="true" signature="265:1234" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="333:376" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="432:1232" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="472:1182" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="480:564" ph="/* WASD and IJKL movement ... */" />
+                <marker date="1542144543386" expanded="true" signature="623:675" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="791:841" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="957:1008" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="1125:1178" ph="{...}" />
+                <marker date="1542144543386" expanded="true" signature="1189:1228" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraController_JZ.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <folding>
+                <marker date="1542142837928" expanded="false" signature="6:117" ph="..." />
+                <marker date="1542142837928" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+                <marker date="1542142837928" expanded="true" signature="307:1620" ph="{...}" />
+                <marker date="1542142837928" expanded="true" signature="471:547" ph="{...}" />
+                <marker date="1542142837928" expanded="true" signature="563:620" ph="{...}" />
+                <marker date="1542142837928" expanded="true" signature="642:1330" ph="{...}" />
+                <marker date="1542142837928" expanded="true" signature="649:913" ph="/* CAMERA POSITION: ... */" />
+                <marker date="1542142837928" expanded="true" signature="922:1039" ph="/* CAMERA ROTATION: ... */" />
+                <marker date="1542142837928" expanded="true" signature="1070:1161" ph="{...}" />
+                <marker date="1542142837928" expanded="true" signature="1243:1327" ph="{...}" />
+                <marker date="1542142837928" expanded="true" signature="1373:1618" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +107,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,6 +119,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" />
       </list>
     </option>
   </component>
@@ -140,6 +220,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -180,11 +266,13 @@
       <option name="presentableId" value="Default" />
       <updated>1541706782273</updated>
       <workItem from="1541706790506" duration="3517000" />
+      <workItem from="1542143803977" duration="1564000" />
+      <workItem from="1542309043230" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3517000" />
+    <option name="totallyTimeSpent" value="5661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,24 +288,24 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -232,63 +320,68 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+    <entry file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
           <folding>
-            <marker date="1541707492261" expanded="false" signature="6:202" ph="..." />
-            <marker date="1541707492261" expanded="true" signature="239:798" ph="{...}" />
-            <marker date="1541707492261" expanded="true" signature="243:450" ph="/* INTENT: Timer that will count down in the upper right of the screen. When it hits zero it ... */" />
-            <marker date="1541707492261" expanded="true" signature="551:558" ph="{...}" />
-            <marker date="1541707492261" expanded="true" signature="613:796" ph="{...}" />
-            <marker date="1541707492261" expanded="true" signature="754:793" ph="{...}" />
+            <marker date="1542144543386" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542144543386" expanded="true" signature="80:218" ph="/* USAGE: put this on a capsule (TMPO PLAYER). -SC ... */" />
+            <marker date="1542144543386" expanded="true" signature="265:1234" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="333:376" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="432:1232" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="472:1182" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="480:564" ph="/* WASD and IJKL movement ... */" />
+            <marker date="1542144543386" expanded="true" signature="623:675" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="791:841" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="957:1008" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="1125:1178" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="1189:1228" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1018">
-          <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+        <state relative-caret-position="1102">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding>
-            <marker date="1541709452689" expanded="false" signature="6:114" ph="..." />
-            <marker date="1541709452689" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1541709452689" expanded="true" signature="291:1347" ph="{...}" />
-            <marker date="1541709452689" expanded="true" signature="422:465" ph="{...}" />
-            <marker date="1541709452689" expanded="true" signature="518:892" ph="{...}" />
-            <marker date="1541709452689" expanded="true" signature="933:1345" ph="{...}" />
-            <marker date="1541709452689" expanded="true" signature="1121:1342" ph="{...}" />
-            <marker date="1541709452689" expanded="true" signature="1129:1187" ph="/* check the size here... later ... */" />
+            <marker date="1542309624174" expanded="true" signature="6:78" ph="..." />
+            <marker date="1542309624174" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
+            <marker date="1542309624174" expanded="true" signature="192:1391" ph="{...}" />
+            <marker date="1542309624174" expanded="true" signature="325:387" ph="/* player's transform vector3 ... */" />
+            <marker date="1542309624174" expanded="true" signature="406:1196" ph="{...}" />
+            <marker date="1542309624174" expanded="true" signature="410:699" ph="/* PLAYER MOVEMENT: ... */" />
+            <marker date="1542309624174" expanded="true" signature="702:745" ph="/* PLAYER POSITION: ... */" />
+            <marker date="1542309624174" expanded="true" signature="1200:1389" ph="/* void FixedUpdate() ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="609">
+          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding>
-            <marker date="1541710687203" expanded="false" signature="6:78" ph="..." />
-            <marker date="1541710687203" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
-            <marker date="1541710687203" expanded="true" signature="305:2725" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="711:754" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="809:1795" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="854:883" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="890:920" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="929:994" ph="/* if squirrel is on flat ground... use gravity ... */" />
-            <marker date="1541710687203" expanded="true" signature="1011:1047" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="1054:1091" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="1103:1141" ph="/* MOUSE LOOK ... */" />
-            <marker date="1541710687203" expanded="true" signature="1773:1792" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="1817:2315" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="1935:1993" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="2000:2060" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="2078:2224" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="2231:2306" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="2329:2422" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="2444:2723" ph="{...}" />
-            <marker date="1541710687203" expanded="true" signature="2678:2720" ph="{...}" />
+            <marker date="1542142837928" expanded="false" signature="6:117" ph="..." />
+            <marker date="1542142837928" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1542142837928" expanded="true" signature="307:1620" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="471:547" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="563:620" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="642:1330" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="649:913" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1542142837928" expanded="true" signature="922:1039" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1542142837928" expanded="true" signature="1070:1161" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="1243:1327" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="1373:1618" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -298,6 +391,93 @@
         <state relative-caret-position="290">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1018">
+          <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <marker date="1542142837928" expanded="false" signature="6:117" ph="..." />
+            <marker date="1542142837928" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1542142837928" expanded="true" signature="307:1620" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="471:547" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="563:620" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="642:1330" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="649:913" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1542142837928" expanded="true" signature="922:1039" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1542142837928" expanded="true" signature="1070:1161" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="1243:1327" ph="{...}" />
+            <marker date="1542142837928" expanded="true" signature="1373:1618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <marker date="1542144543386" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542144543386" expanded="true" signature="80:218" ph="/* USAGE: put this on a capsule (TMPO PLAYER). -SC ... */" />
+            <marker date="1542144543386" expanded="true" signature="265:1234" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="333:376" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="432:1232" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="472:1182" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="480:564" ph="/* WASD and IJKL movement ... */" />
+            <marker date="1542144543386" expanded="true" signature="623:675" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="791:841" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="957:1008" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="1125:1178" ph="{...}" />
+            <marker date="1542144543386" expanded="true" signature="1189:1228" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="35" column="86" lean-forward="true" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
+          <folding>
+            <marker date="1542309624174" expanded="true" signature="6:78" ph="..." />
+            <marker date="1542309624174" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
+            <marker date="1542309624174" expanded="true" signature="192:1391" ph="{...}" />
+            <marker date="1542309624174" expanded="true" signature="325:387" ph="/* player's transform vector3 ... */" />
+            <marker date="1542309624174" expanded="true" signature="406:1196" ph="{...}" />
+            <marker date="1542309624174" expanded="true" signature="410:699" ph="/* PLAYER MOVEMENT: ... */" />
+            <marker date="1542309624174" expanded="true" signature="702:745" ph="/* PLAYER POSITION: ... */" />
+            <marker date="1542309624174" expanded="true" signature="1200:1389" ph="/* void FixedUpdate() ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
