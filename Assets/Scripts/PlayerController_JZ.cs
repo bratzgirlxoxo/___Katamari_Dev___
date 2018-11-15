@@ -18,6 +18,7 @@ public class PlayerController_JZ : MonoBehaviour
 	// private Vector3 inputVector;
 	
 	void Update () {
+		
 		/*
 		// PLAYER MOVEMENT:
 		
@@ -27,6 +28,8 @@ public class PlayerController_JZ : MonoBehaviour
 		inputVector = transform.forward * vertical; // forward
 		inputVector += transform.right * horizontal; // strafe
 		*/
+		
+		
 		/////////////////////
 		// PLAYER POSITION:
 
