@@ -14,15 +14,20 @@ public class AI_JZ : MonoBehaviour
 
 	// make sure AI always stays on the same Y-value
 	public float groundHeight;
-	
+
+	// set these in the inspector to be slightly larger than the ground the AI is on
+		// aka, if the bed is 10x10, make the length and width 11x11 or something
+	public float groundXLength;
+	public float groundZLength;
 	
 	public float maxRayDist = 0.6f; // raycast's max dist is slightly longer than half height of AI
-	
+
 	// Update is called once per frame
 	void Update ()
 	{
 		// groundedRay checks if AI is resting on ground or not
 		Ray groundedRay = new Ray(transform.position, Vector3.down);
+
 
 		// if AI is grounded, then AI will move around
 		if (Physics.Raycast(groundedRay, maxRayDist))
@@ -34,21 +39,32 @@ public class AI_JZ : MonoBehaviour
 			// if reach destination, make a new random destination
 			if (Vector3.Distance(transform.position, destination) < 2f)
 			{
-				destination = new Vector3(Random.Range(-10f, 10f), groundHeight, Random.Range(-10f, 10f));
+				FindNewDestination();
 			}
 		
 			// always turns to face the destination
 			transform.LookAt(destination);
 		}
-		else
-		{ // if AI moves off ground, it'll move back on ground and get a new destination on the ground
+	}
+
+	// will find a new destination that is within the bounds of the ground
+	void FindNewDestination()
+	{
+		destination = new Vector3(Random.Range(-groundXLength, groundXLength), 
+			groundHeight, 
+			Random.Range(-groundZLength, groundZLength));
 			
-			// NEED TO FIX: how to get AI to move back on ground after it's off?
+		Ray destinationGroundedRay = new Ray(destination, Vector3.down);
+		if (!Physics.Raycast(destinationGroundedRay, groundHeight + 1))
+		{
 			
-			transform.Rotate(0f, 1f, 0f);
-			destination = new Vector3(Random.Range(-10f, 10f), groundHeight, Random.Range(-10f, 10f));
+			FindNewDestination();
+			Debug.Log("bad destination");
 		}
-		
-		
+		else
+		{
+			Debug.Log("good destination");
+			
+		}
 	}
 }
