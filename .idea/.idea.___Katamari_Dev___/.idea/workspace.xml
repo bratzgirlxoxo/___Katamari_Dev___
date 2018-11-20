@@ -4,9 +4,6 @@
     <list default="true" id="7f05b00e-06f6-4aa5-b068-6b9fbe3d21c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +15,13 @@
     <session id="1385938960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="727" />
+          <entry key="cs" value="2201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="727" />
+          <entry key="C#" value="2201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,7 +50,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
@@ -60,7 +58,6 @@
               <folding>
                 <marker date="1542314238168" expanded="true" signature="6:117" ph="..." />
                 <marker date="1542314238168" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-                <marker date="1542314238168" expanded="true" signature="307:1862" ph="{...}" />
                 <marker date="1542314238168" expanded="true" signature="372:459" ph="/* public float rotateDistance = 10f; ... */" />
                 <marker date="1542314238168" expanded="true" signature="462:558" ph="/* void Start() ... */" />
                 <marker date="1542314238168" expanded="true" signature="574:695" ph="{...}" />
@@ -95,6 +92,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+              <folding>
+                <marker date="1542729938197" expanded="true" signature="6:78" ph="..." />
+                <marker date="1542729938197" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
+                <marker date="1542729938197" expanded="true" signature="225:1542" ph="{...}" />
+                <marker date="1542729938197" expanded="true" signature="521:1540" ph="{...}" />
+                <marker date="1542729938197" expanded="true" signature="743:1216" ph="{...}" />
+                <marker date="1542729938197" expanded="true" signature="1027:1132" ph="{...}" />
+                <marker date="1542729938197" expanded="true" signature="1223:1531" ph="{...}" />
+                <marker date="1542729938197" expanded="true" signature="1228:1396" ph="/* if AI moves off ground, it'll move back on ground and get a new destination on the ground ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -103,6 +119,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectAlign_ML.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -112,6 +129,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +139,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1522" />
     <option name="height" value="1932" />
@@ -187,12 +205,13 @@
       <workItem from="1541706574228" duration="1962000" />
       <workItem from="1541712470661" duration="1318000" />
       <workItem from="1542143226290" duration="596000" />
-      <workItem from="1542313370481" duration="876000" />
+      <workItem from="1542313370481" duration="980000" />
+      <workItem from="1542728708736" duration="1218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4752000" />
+    <option name="totallyTimeSpent" value="6074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,7 +226,7 @@
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25979382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -263,12 +282,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <marker date="1542144073002" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542144073002" expanded="true" signature="80:218" ph="/* USAGE: put this on a capsule (TMPO PLAYER). -SC ... */" />
-            <marker date="1542144073002" expanded="true" signature="265:1220" ph="{...}" />
-            <marker date="1542144073002" expanded="true" signature="333:337" ph="{...}" />
-            <marker date="1542144073002" expanded="true" signature="1215:1218" ph="{...}" />
+            <marker date="1542314238168" expanded="true" signature="6:117" ph="..." />
+            <marker date="1542314238168" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1542314238168" expanded="true" signature="372:459" ph="/* public float rotateDistance = 10f; ... */" />
+            <marker date="1542314238168" expanded="true" signature="462:558" ph="/* void Start() ... */" />
+            <marker date="1542314238168" expanded="true" signature="574:695" ph="{...}" />
+            <marker date="1542314238168" expanded="true" signature="717:1405" ph="{...}" />
+            <marker date="1542314238168" expanded="true" signature="724:988" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1542314238168" expanded="true" signature="997:1114" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1542314238168" expanded="true" signature="1145:1236" ph="{...}" />
+            <marker date="1542314238168" expanded="true" signature="1318:1402" ph="{...}" />
+            <marker date="1542314238168" expanded="true" signature="1443:1860" ph="{...}" />
+            <marker date="1542314238168" expanded="true" signature="1526:1690" ph="/* RotateAround() is a Unity pre-made function that rotates smth on its own axis ... */" />
           </folding>
         </state>
       </provider>
@@ -290,24 +323,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="675">
+          <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
           <folding>
-            <marker date="1542314238168" expanded="true" signature="6:117" ph="..." />
-            <marker date="1542314238168" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1542314238168" expanded="true" signature="307:1862" ph="{...}" />
-            <marker date="1542314238168" expanded="true" signature="372:459" ph="/* public float rotateDistance = 10f; ... */" />
-            <marker date="1542314238168" expanded="true" signature="462:558" ph="/* void Start() ... */" />
-            <marker date="1542314238168" expanded="true" signature="574:695" ph="{...}" />
-            <marker date="1542314238168" expanded="true" signature="717:1405" ph="{...}" />
-            <marker date="1542314238168" expanded="true" signature="724:988" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1542314238168" expanded="true" signature="997:1114" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1542314238168" expanded="true" signature="1145:1236" ph="{...}" />
-            <marker date="1542314238168" expanded="true" signature="1318:1402" ph="{...}" />
-            <marker date="1542314238168" expanded="true" signature="1443:1860" ph="{...}" />
-            <marker date="1542314238168" expanded="true" signature="1526:1690" ph="/* RotateAround() is a Unity pre-made function that rotates smth on its own axis ... */" />
+            <marker date="1542729938197" expanded="true" signature="6:78" ph="..." />
+            <marker date="1542729938197" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
+            <marker date="1542729938197" expanded="true" signature="225:1542" ph="{...}" />
+            <marker date="1542729938197" expanded="true" signature="521:1540" ph="{...}" />
+            <marker date="1542729938197" expanded="true" signature="743:1216" ph="{...}" />
+            <marker date="1542729938197" expanded="true" signature="1027:1132" ph="{...}" />
+            <marker date="1542729938197" expanded="true" signature="1223:1531" ph="{...}" />
+            <marker date="1542729938197" expanded="true" signature="1228:1396" ph="/* if AI moves off ground, it'll move back on ground and get a new destination on the ground ... */" />
           </folding>
         </state>
       </provider>
