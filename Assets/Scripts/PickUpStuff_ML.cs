@@ -22,7 +22,7 @@ public class PickUpStuff_ML : MonoBehaviour
 
     public float scalingVar;
 
-    public float moveSpeed;
+   // public float moveSpeed;
 
     //public float mass;
 
@@ -35,12 +35,12 @@ public class PickUpStuff_ML : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 		// move the ball around.... THIS IS JUST FOR TESTING...
-		float horizontalInput = Input.GetAxis("Horizontal"); // get horizontal key input
-		float verticalInput = Input.GetAxis("Vertical"); // get vertical key input
+		//float horizontalInput = Input.GetAxis("Horizontal"); // get horizontal key input
+		//float verticalInput = Input.GetAxis("Vertical"); // get vertical key input
 		
-		Vector3 inputVector = new Vector3(horizontalInput, 0f, verticalInput); // combine the inputs
+		//Vector3 inputVector = new Vector3(horizontalInput, 0f, verticalInput); // combine the inputs
 
-		rBody.velocity = inputVector * moveSpeed; // set the velocity
+		//rBody.velocity = inputVector * moveSpeed; // set the velocity
 
         Debug.Log("BallSize = " + ballSize);
 
