@@ -1006,6 +1006,7 @@ GameObject:
   - component: {fileID: 1218302745}
   - component: {fileID: 1218302751}
   - component: {fileID: 1218302746}
+  - component: {fileID: 1218302752}
   m_Layer: 0
   m_Name: ball_ML
   m_TagString: Player
@@ -1043,6 +1044,7 @@ MonoBehaviour:
   startBallSize: 1
   balltrans: {fileID: 1218302750}
   scalingVar: 1.05
+  moveSpeed: 0
 --- !u!135 &1218302747
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1126,6 +1128,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballsizetext: {fileID: 935809650}
+--- !u!114 &1218302752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1218302744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479c2c157356a47cd8a1e07750bce829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  speed: 10
 --- !u!1 &1358351570
 GameObject:
   m_ObjectHideFlags: 0

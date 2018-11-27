@@ -9,22 +9,22 @@ public class CameraController_JZ : MonoBehaviour
 {
 
 	public float lookSpeed = 10f;
-	public GameObject ballObj;
+	public GameObject ball;
 
-	//public float rotateDistance = 10f;
-	//public Vector3 relativeDistance = Vector3.zero;
+	public float rotateDistance = 10f;
 
-	/*
+	public Vector3 relativeDistance = Vector3.zero;
+
+	private PlayerMovement_SC moveScript; // the movement script on the ball
+
 	void Start()
 	{
-		relativeDistance = transform.position - ballPos.transform.position;
+		moveScript = ball.GetComponent<PlayerMovement_SC>();
 	}
-	*/
-
+	
 	void Update()
 	{
-		// keeps empty GameObject always at same position as the ball
-		transform.position = ballObj.transform.position;
+		transform.position = ball.transform.position;
 	}
 
 	void LateUpdate () {
@@ -44,7 +44,6 @@ public class CameraController_JZ : MonoBehaviour
 		{
 			//transform.Rotate( 0f, -lookSpeed, 0f);
 			RotateAroundBall(Vector3.down);
-			
 		}
 		else if (Input.GetKey((KeyCode.O))) // when O is held, camera will rotate right
 		{
@@ -53,14 +52,9 @@ public class CameraController_JZ : MonoBehaviour
 		}
 	}
 
-	void RotateAroundBall(Vector3 axis)
+	void RotateAroundBall(Vector3 direction)
 	{
-		transform.position = ballObj.transform.position; // + relativeDistance;
-		
-		// RotateAround() is a Unity pre-made function that rotates smth on its own axis
-		// the empty game object is rotating, which will then rotate the child MainCamera
-		transform.RotateAround(ballObj.transform.position, axis, 20 * lookSpeed * Time.deltaTime);
+		transform.RotateAround(ball.transform.position, direction, 20 * lookSpeed * Time.deltaTime);
 
-		// relativeDistance = transform.position - ballPos.transform.position;
 	}
 }
