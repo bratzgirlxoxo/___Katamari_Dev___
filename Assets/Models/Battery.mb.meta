@@ -1,15 +1,21 @@
 fileFormatVersion: 2
-guid: 7fd4f83cacbb5de4baa5b9a252fdb8d4
+guid: 50110e3bfaf3f4ea3962d3dbe20d29ef
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCylinder1
+    100004: pCylinder2
     400000: //RootNode
+    400002: pCylinder1
+    400004: pCylinder2
     2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pCube1
-    2186277476908879412: ImportLogs
+    2300000: pCylinder1
+    2300002: pCylinder2
+    3300000: pCylinder1
+    3300002: pCylinder2
+    4300000: pCylinder1
+    4300002: pCylinder2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -41,7 +47,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.1
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
