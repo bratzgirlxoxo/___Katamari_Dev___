@@ -31,9 +31,10 @@ public class PlayerMovement_SC : MonoBehaviour
 		float vert2 = Input.GetAxis("Vertical2");
 		float horz2 = Input.GetAxis("Horizontal2");
 		Vector2 rightInput = new Vector2(horz2, vert2);
+		
 
 		float finalVert;
-		if (Mathf.Abs(vert1) <= 0.001f || Mathf.Abs(vert2) <= 0.001f)
+		if (Mathf.Abs(vert1) >= 0.001f && Mathf.Abs(vert2) >= 0.001f)
 		{
 			finalVert = (vert1 + vert2) / 2f;
 		}
@@ -44,7 +45,7 @@ public class PlayerMovement_SC : MonoBehaviour
 
 
 		float finalHorz;
-		if (Mathf.Abs(horz1) <= 0.001f || Mathf.Abs(horz2) <= 0.001f)
+		if (Mathf.Abs(horz1) >= 0.001f && Mathf.Abs(horz2) >= 0.001f)
 		{
 			finalHorz = (horz1 + horz2) / 2f;
 		}
