@@ -13,11 +13,4 @@ public class SizeKG : MonoBehaviour
     // Variables:
     public float mass;
 
-	
-	void Start () 
-    {
-        
-	}
-	
-	
 }
