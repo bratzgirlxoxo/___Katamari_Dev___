@@ -22,6 +22,8 @@ public class PickUpStuff_ML : MonoBehaviour
 
     public float scalingVar;
 
+    private SizeKG sizescript;
+
    // public float moveSpeed;
 
     //public float mass;
@@ -30,6 +32,7 @@ public class PickUpStuff_ML : MonoBehaviour
 	{
 		rBody = GetComponent<Rigidbody>();
         //mass = GetComponent<SizeKG>().mass;
+        sizescript = GetComponent<SizeKG>();
 	}
 	
 	// Update is called once per frame
@@ -76,13 +79,14 @@ public class PickUpStuff_ML : MonoBehaviour
         // check to see if the other object is collectible;
         if (otherObject.CompareTag("Item"))
         {
-            float masss = coll.gameObject.GetComponent<SizeKG>().mass;
+            float mass = coll.gameObject.GetComponent<SizeKG>().mass;
             // check the size here... later
-            if (masss <= ballSize)
+            if (mass <= ballSize)
             {
                 // collect the object!
                 otherObject.transform.parent = transform; // set the objects parent to this transform
-                ballSize += masss;
+              //  otherObject.GetComponent<SizeKG>().itemname 
+                ballSize += mass;
                 otherObject.tag = "PickedUpItem";
                 if (ballSize > startBallSize)
                 {
