@@ -13,8 +13,6 @@ public class CameraController_JZ : MonoBehaviour
 
 	public float rotateDistance = 10f;
 
-	public Vector3 relativeDistance = Vector3.zero;
-
 	private PlayerMovement_SC moveScript; // the movement script on the ball
 
 	void Start()

@@ -14,14 +14,19 @@ public class PlayerController_JZ : MonoBehaviour
 	void Update () {
 		// PLAYER POSITION:
 
-		//transform.forward = cameraTransform.forward;
+		Ray groundRay = new Ray(player.transform.position + new Vector3(0f, 1f, 0f), -player.transform.up);
+		Debug.DrawRay(groundRay.origin, groundRay.direction, Color.blue);
+		float maxRayDist = 5f;
+		RaycastHit rHit = new RaycastHit();
+
 		
-		// position of player is midpoint of ball and camera with offset
-		Vector3 playerPos = ((transform.position + cameraPos.transform.position) / 2);
-		//Vector3 playerPos = transform.position - Camera.main.transform.forward * 3f;
-		playerPos = new Vector3(playerPos.x, 0f, playerPos.z);
+		Vector3 playerPos = transform.position - Camera.main.transform.forward * 4f;
+		Physics.Raycast(groundRay, out rHit, maxRayDist);
+		playerPos = new Vector3(playerPos.x, rHit.point.y, playerPos.z);
 		player.transform.position = playerPos;
 		// BUG: player jiggles around
-		player.transform.forward = Camera.main.transform.forward;
+		Vector3 camForward = Camera.main.transform.forward;
+		camForward.y = 0;
+		player.transform.forward = camForward;
 	}
 }
