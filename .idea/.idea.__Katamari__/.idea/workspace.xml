@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd98578-30a9-403b-b1ba-960211aa82d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.__Katamari__/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma.meta" afterPath="$PROJECT_DIR$/Assets/Models/MainCharacter_ML.ma.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefab/Battery.prefab" afterPath="$PROJECT_DIR$/Assets/Prefab/Battery.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefab/Coin.prefab" afterPath="$PROJECT_DIR$/Assets/Prefab/Coin.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefab/Dice.prefab" afterPath="$PROJECT_DIR$/Assets/Prefab/Dice.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefab/Match.prefab" afterPath="$PROJECT_DIR$/Assets/Prefab/Match.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefab/Stamp.prefab" afterPath="$PROJECT_DIR$/Assets/Prefab/Stamp.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/CameraController_JZ.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/CameraController_JZ.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/KevinGreybox.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/KevinGreybox.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerController_JZ.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerController_JZ.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="638">
+              <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <marker date="1543520646503" expanded="false" signature="6:78" ph="..." />
                 <marker date="1543520646503" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
@@ -53,17 +48,33 @@
       <file leaf-file-name="PickUpStuff_ML.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="841">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
-                <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-                <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-                <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-                <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-                <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-                <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-                <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-                <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
+                <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+                <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+                <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+                <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+                <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+                <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+                <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VictoryKG.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VictoryKG.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1541706005206" expanded="false" signature="6:100" ph="..." />
+                <marker date="1541706005206" expanded="true" signature="102:249" ph="/* Usage: Put this on the game manager ... */" />
+                <marker date="1541706005206" expanded="true" signature="290:629" ph="{...}" />
+                <marker date="1541706005206" expanded="true" signature="439:527" ph="{...}" />
+                <marker date="1541706005206" expanded="true" signature="481:524" ph="{...}" />
+                <marker date="1541706005206" expanded="true" signature="547:626" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -91,23 +102,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraController_JZ.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CameraController_JZ.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="945">
+              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
               <folding>
-                <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-                <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-                <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-                <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-                <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-                <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-                <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-                <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-                <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-                <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-                <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+                <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+                <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+                <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+                <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+                <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,6 +132,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VictoryKG.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../_heal_/Assets/Scripts/CamForward.cs" root0="FORCE_HIGHLIGHTING" />
@@ -132,10 +144,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/player_movement_Load_ML.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement_SC.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs" />
       </list>
     </option>
   </component>
@@ -287,12 +299,12 @@
       <workItem from="1543345611716" duration="1235000" />
       <workItem from="1543354809503" duration="595000" />
       <workItem from="1543446862262" duration="1242000" />
-      <workItem from="1543519211992" duration="1435000" />
+      <workItem from="1543519211992" duration="5300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20000000" />
+    <option name="totallyTimeSpent" value="23865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,17 +385,17 @@
         <state relative-caret-position="1566">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -406,14 +418,13 @@
         <state relative-caret-position="1218">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-            <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-            <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
+            <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+            <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -431,14 +442,13 @@
         <state relative-caret-position="1218">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-            <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-            <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
+            <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+            <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -468,17 +478,17 @@
         <state relative-caret-position="1566">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -509,14 +519,13 @@
         <state relative-caret-position="1218">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-            <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-            <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
+            <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+            <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -526,17 +535,17 @@
         <state relative-caret-position="1566">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -587,14 +596,13 @@
         <state relative-caret-position="1218">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-            <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-            <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
+            <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+            <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -604,17 +612,17 @@
         <state relative-caret-position="1566">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -678,14 +686,13 @@
         <state relative-caret-position="1218">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-            <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-            <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
+            <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+            <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -695,17 +702,17 @@
         <state relative-caret-position="1595">
           <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -776,17 +783,17 @@
         <state relative-caret-position="609">
           <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -810,23 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <marker date="1543354584423" expanded="false" signature="6:114" ph="..." />
-            <marker date="1543354584423" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
-            <marker date="1543354584423" expanded="true" signature="291:1796" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="513:970" ph="/* void Update () { ... */" />
-            <marker date="1543354584423" expanded="true" signature="1012:1792" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1213:1789" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1373:1779" ph="{...}" />
-            <marker date="1543354584423" expanded="true" signature="1659:1765" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -858,35 +848,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUpStuff_ML.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="841">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
-            <marker date="1543520265575" expanded="true" signature="6:117" ph="..." />
-            <marker date="1543520265575" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
-            <marker date="1543520265575" expanded="true" signature="307:1478" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="493:554" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="647:1331" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="654:918" ph="/* CAMERA POSITION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="927:1044" ph="/* CAMERA ROTATION: ... */" />
-            <marker date="1543520265575" expanded="true" signature="1075:1162" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1543520265575" expanded="true" signature="1374:1476" ph="{...}" />
+            <marker date="1543523599508" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543523599508" expanded="true" signature="116:247" ph="/* USAGE: put this script on the Ball that will be pushed around ... */" />
+            <marker date="1543523599508" expanded="true" signature="291:1419" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="434:1415" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="635:1412" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="795:1402" ph="{...}" />
+            <marker date="1543523599508" expanded="true" signature="1227:1388" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VictoryKG.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1541706005206" expanded="false" signature="6:100" ph="..." />
+            <marker date="1541706005206" expanded="true" signature="102:249" ph="/* Usage: Put this on the game manager ... */" />
+            <marker date="1541706005206" expanded="true" signature="290:629" ph="{...}" />
+            <marker date="1541706005206" expanded="true" signature="439:527" ph="{...}" />
+            <marker date="1541706005206" expanded="true" signature="481:524" ph="{...}" />
+            <marker date="1541706005206" expanded="true" signature="547:626" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="638">
+          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
           <folding>
             <marker date="1543520646503" expanded="false" signature="6:78" ph="..." />
             <marker date="1543520646503" expanded="true" signature="80:143" ph="/* USAGE: put this on the Player ... */" />
             <marker date="1543520646503" expanded="true" signature="192:958" ph="{...}" />
             <marker date="1543520646503" expanded="true" signature="306:956" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <marker date="1543526387257" expanded="true" signature="6:117" ph="..." />
+            <marker date="1543526387257" expanded="true" signature="119:258" ph="/* USAGE: put this on the GameObject that has the MainCamera as the child ... */" />
+            <marker date="1543526387257" expanded="true" signature="307:1542" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="519:580" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="597:957" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="682:779" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="861:954" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="979:1382" ph="{...}" />
+            <marker date="1543526387257" expanded="true" signature="986:1250" ph="/* CAMERA POSITION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1259:1376" ph="/* CAMERA ROTATION: ... */" />
+            <marker date="1543526387257" expanded="true" signature="1442:1540" ph="{...}" />
           </folding>
         </state>
       </provider>
