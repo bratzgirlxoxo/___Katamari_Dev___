@@ -5209,12 +5209,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0226aaa93234857b35580e0519ce75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageIndex: 0
   messages:
   - Yaaaaawnnn!
   - Prince that wasn't fun at all!
   - Go ahead try again.
-  messageIndex: 3
   toggleMessages: 1
+  width: 122.8
+  height: 37.22
 --- !u!4 &1776064592
 Transform:
   m_ObjectHideFlags: 0

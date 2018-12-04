@@ -9,10 +9,13 @@ using UnityEngine.SceneManagement;
 
 public class TextChanger_KG : MonoBehaviour 
 {
+    public int messageIndex = 0;
     public string[] messages;
-    public int messageIndex = 0; 
     public bool toggleMessages = true;
-	
+
+
+    public float width;
+    public float height;
 
 	void Update () 
     {
@@ -37,6 +40,6 @@ public class TextChanger_KG : MonoBehaviour
     {
         // This shows the Text on the UI
         if (toggleMessages)
-            GUI.TextArea(new Rect(420, 250, 100, 100), messages[messageIndex]);
+            GUI.TextArea(new Rect(420, 250, width, height), messages[messageIndex]);
     }
 }
