@@ -65,6 +65,9 @@ ModelImporter:
     100118: transform8
     100120: transform9
     100122: upper_body
+    100124: ikHandle1
+    100126: left_leg_IK
+    100128: right_leg_IK
     400000: //RootNode
     400002: head_antenna
     400004: head_main
@@ -127,6 +130,9 @@ ModelImporter:
     400118: transform8
     400120: transform9
     400122: upper_body
+    400124: ikHandle1
+    400126: left_leg_IK
+    400128: right_leg_IK
     2100000: lambert1
     2300000: //RootNode
     2300002: head_antenna
@@ -230,7 +236,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
