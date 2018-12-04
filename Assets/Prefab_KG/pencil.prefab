@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 135597595966565354}
   m_Layer: 0
   m_Name: pencil
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mass: 3
   itemname: Pencil
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 03cc89b0e0fc247dbb7aa6d2270700b6, type: 3}
 --- !u!135 &135597595966565354
 SphereCollider:
   m_ObjectHideFlags: 1

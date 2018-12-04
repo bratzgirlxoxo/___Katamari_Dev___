@@ -9,6 +9,7 @@ public class PickUpStuff_ML : MonoBehaviour
 {
 
 	public float ballSize; // the size of the ball
+	public ItemPickupUI_KG uiImages;
 
 	public int numItems = 0; // num items picked up
 
@@ -21,7 +22,8 @@ public class PickUpStuff_ML : MonoBehaviour
         // check to see if the other object is collectible;
         if (otherObject.CompareTag("Item"))
         {
-            float masss = coll.gameObject.GetComponent<SizeKG>().mass;
+            float masss = coll.gameObject.GetComponent<SizeKG>().mass; // get the mass of the object
+	        uiImages.sizescript = coll.gameObject.GetComponent<SizeKG>(); // send object info to the ui
             // check the size here... later
             if (masss <= ballSize)
             {
