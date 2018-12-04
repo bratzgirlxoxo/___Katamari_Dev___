@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Prototype.unity
     guid: 32ea58cbed4519145b3bebcfbdc7058d
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 90e94807da4284fa48e520f7bec0e709
   m_configObjects: {}

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // Usage: Put this on the game manager
 // Intent: Reference the ball size and then determine if it exceeds the 
@@ -28,8 +28,7 @@ public class VictoryKG : MonoBehaviour
 
     void Victory()
     {
-        Time.timeScale = 0;
-        victorySprite.SetActive(true);
+        SceneManager.LoadScene("Win");
     }
 
 }

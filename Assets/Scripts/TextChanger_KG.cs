@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.UI;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 // Usage: Put this on a Game Manager
@@ -13,9 +13,13 @@ public class TextChanger_KG : MonoBehaviour
     public string[] messages;
     public bool toggleMessages = true;
 
+   // public int fontsize;
+    public Font font;
 
-    public float width;
-    public float height;
+   // public float width;
+   // public float height;
+
+    public Text textbox;
 
 	void Update () 
     {
@@ -31,15 +35,21 @@ public class TextChanger_KG : MonoBehaviour
         }
 
         // Bounds checking
-         messageIndex = Mathf.Clamp(messageIndex, messages.GetLowerBound(0), messages.GetUpperBound(0)); 
-            
+         messageIndex = Mathf.Clamp(messageIndex, messages.GetLowerBound(0), messages.GetUpperBound(0));
+
+
+         // Text Box Fills
+         textbox.text = messages[messageIndex];
 
 	}
 
-    void OnGUI()
+  /*  void OnGUI()
     {
         // This shows the Text on the UI
         if (toggleMessages)
-            GUI.TextArea(new Rect(420, 250, width, height), messages[messageIndex]);
+            GUI.TextArea(new Rect(420, 250, width, height), messages[messageIndex], fontsize );
+            GUI.skin.label.fontSize = fontsize;
     }
+
+ */
 }
