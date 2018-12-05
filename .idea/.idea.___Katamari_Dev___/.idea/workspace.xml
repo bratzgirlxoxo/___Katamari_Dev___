@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f05b00e-06f6-4aa5-b068-6b9fbe3d21c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/caramelCubeExport_JZ.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/caramelCubeExport_JZ.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/mandarinPieceExport_JZ.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/mandarinPieceExport_JZ.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/pushPinExport_JZ.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/pushPinExport_JZ.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/pushPinExport_JZ.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/pushPinExport_JZ.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/shaomaiExport.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/shaomaiExport.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/shaomaiExport.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/shaomaiExport.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/snailExpor.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/snailExpor.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/snailExpor.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/snailExpor.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/strawberryExport.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/strawberryExport.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/strawberryExport.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/strawberryExport.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AI_JZ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AI_JZ.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +15,14 @@
     <session id="1385938960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3103" />
+          <entry key="cs" value="3112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3103" />
+          <entry key="C#" value="3112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -85,19 +72,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="697">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding>
-                <marker date="1543789460189" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543789460189" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
-                <marker date="1543789460189" expanded="true" signature="225:1989" ph="{...}" />
-                <marker date="1543789460189" expanded="true" signature="369:525" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
-                <marker date="1543789460189" expanded="true" signature="735:1480" ph="{...}" />
-                <marker date="1543789460189" expanded="true" signature="958:1477" ph="{...}" />
-                <marker date="1543789460189" expanded="true" signature="1242:1278" ph="{...}" />
-                <marker date="1543789460189" expanded="true" signature="1580:1987" ph="{...}" />
-                <marker date="1543789460189" expanded="true" signature="1861:1931" ph="{...}" />
-                <marker date="1543789460189" expanded="true" signature="1938:1984" ph="{...}" />
+                <marker date="1543957533187" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543957533187" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
+                <marker date="1543957533187" expanded="true" signature="225:1989" ph="{...}" />
+                <marker date="1543957533187" expanded="true" signature="369:525" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
+                <marker date="1543957533187" expanded="true" signature="735:1480" ph="{...}" />
+                <marker date="1543957533187" expanded="true" signature="958:1477" ph="{...}" />
+                <marker date="1543957533187" expanded="true" signature="1242:1278" ph="{...}" />
+                <marker date="1543957533187" expanded="true" signature="1580:1987" ph="{...}" />
+                <marker date="1543957533187" expanded="true" signature="1861:1931" ph="{...}" />
+                <marker date="1543957533187" expanded="true" signature="1938:1984" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -142,13 +129,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,11 +188,12 @@
       <workItem from="1542728708736" duration="1797000" />
       <workItem from="1542747690367" duration="2928000" />
       <workItem from="1543788799020" duration="669000" />
+      <workItem from="1543957261082" duration="1479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10250000" />
+    <option name="totallyTimeSpent" value="11729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +207,7 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2701031" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2735395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,19 +282,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="697">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
           <folding>
-            <marker date="1543789460189" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543789460189" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
-            <marker date="1543789460189" expanded="true" signature="225:1989" ph="{...}" />
-            <marker date="1543789460189" expanded="true" signature="369:525" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
-            <marker date="1543789460189" expanded="true" signature="735:1480" ph="{...}" />
-            <marker date="1543789460189" expanded="true" signature="958:1477" ph="{...}" />
-            <marker date="1543789460189" expanded="true" signature="1242:1278" ph="{...}" />
-            <marker date="1543789460189" expanded="true" signature="1580:1987" ph="{...}" />
-            <marker date="1543789460189" expanded="true" signature="1861:1931" ph="{...}" />
-            <marker date="1543789460189" expanded="true" signature="1938:1984" ph="{...}" />
+            <marker date="1543957533187" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543957533187" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
+            <marker date="1543957533187" expanded="true" signature="225:1989" ph="{...}" />
+            <marker date="1543957533187" expanded="true" signature="369:525" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
+            <marker date="1543957533187" expanded="true" signature="735:1480" ph="{...}" />
+            <marker date="1543957533187" expanded="true" signature="958:1477" ph="{...}" />
+            <marker date="1543957533187" expanded="true" signature="1242:1278" ph="{...}" />
+            <marker date="1543957533187" expanded="true" signature="1580:1987" ph="{...}" />
+            <marker date="1543957533187" expanded="true" signature="1861:1931" ph="{...}" />
+            <marker date="1543957533187" expanded="true" signature="1938:1984" ph="{...}" />
           </folding>
         </state>
       </provider>
