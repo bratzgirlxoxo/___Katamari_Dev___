@@ -13,13 +13,22 @@ public class VictoryKG : MonoBehaviour
 
     // Variables:
     public float victorymass;
-    public float ballSize;
 
-    // Images:
-    public GameObject victorySprite;
+
+	// Images:
+	// public GameObject victorySprite;
+
+
+    private PickUpStuff_ML ballsizescript;
+
+	void Start()
+	{
+        ballsizescript = GetComponent<PickUpStuff_ML>();
+	}
 
 	void Update () 
     {
+        float ballSize = ballsizescript.ballSize;
         if(ballSize >= victorymass)
         {
             Victory();

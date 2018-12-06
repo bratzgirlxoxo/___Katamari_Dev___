@@ -16,11 +16,14 @@ public class Lose_KG : MonoBehaviour
 
     public float maxTime;
 
+
+
 	void Start()
 	{
         ballsizescript = GetComponent<PickUpStuff_ML>();
         timerscript = GetComponent <Timer>();
 	}
+
 
 
 	void Update () 
