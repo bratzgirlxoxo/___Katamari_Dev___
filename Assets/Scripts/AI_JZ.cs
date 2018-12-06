@@ -44,6 +44,8 @@ public class AI_JZ : MonoBehaviour
 		
 			// always turns to face the destination
 			transform.LookAt(destination);
+			Debug.DrawLine(transform.position, destination, Color.cyan);
+			//TODO: fix it so that the snail faces forward?
 		}
 	}
 
