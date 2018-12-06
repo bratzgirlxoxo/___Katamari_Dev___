@@ -10,10 +10,9 @@ public class CameraController_JZ : MonoBehaviour
 
 	public float lookSpeed = 10f;
 	public GameObject ball;
+	public Transform player;
 
 	public float rotateDistance = 10f;
-
-	public Vector3 relativeDistance = Vector3.zero;
 
 	private PlayerMovement_SC moveScript; // the movement script on the ball
 
@@ -25,6 +24,17 @@ public class CameraController_JZ : MonoBehaviour
 	void Update()
 	{
 		transform.position = ball.transform.position;
+		
+		if (Input.GetKey(KeyCode.Q))
+		{
+			RotateAroundBall(Vector3.down, transform);
+			RotateAroundBall(Vector3.down, player);
+		}
+		else if (Input.GetKey((KeyCode.O))) // when O is held, camera will rotate right
+		{
+			RotateAroundBall(Vector3.up, transform);
+			RotateAroundBall(Vector3.up, player);
+		}
 	}
 
 	void LateUpdate () {
@@ -40,21 +50,12 @@ public class CameraController_JZ : MonoBehaviour
 		
 		//transform.LookAt(ballPos.transform.position);
 		// when Q is held, camera will rotate left
-		if (Input.GetKey(KeyCode.Q))
-		{
-			//transform.Rotate( 0f, -lookSpeed, 0f);
-			RotateAroundBall(Vector3.down);
-		}
-		else if (Input.GetKey((KeyCode.O))) // when O is held, camera will rotate right
-		{
-			RotateAroundBall(Vector3.up);
-			//transform.Rotate( 0f, lookSpeed, 0f);
-		}
+		
 	}
 
-	void RotateAroundBall(Vector3 direction)
+	void RotateAroundBall(Vector3 direction, Transform thing)
 	{
-		transform.RotateAround(ball.transform.position, direction, 20 * lookSpeed * Time.deltaTime);
+		thing.RotateAround(ball.transform.position, direction, 20 * lookSpeed * Time.deltaTime);
 
 	}
 }
