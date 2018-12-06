@@ -9,7 +9,7 @@ public class PlayerController_JZ : MonoBehaviour
 	public GameObject player;
 	public GameObject cameraPos;
 
-	public Transform cameraTransform;
+	//public Transform cameraTransform;
 	
 	void Update () {
 		// PLAYER POSITION:
