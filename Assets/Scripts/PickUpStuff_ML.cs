@@ -9,24 +9,9 @@ public class PickUpStuff_ML : MonoBehaviour
 {
 
 	public float ballSize; // the size of the ball
-    public float startBallSize; // the starting size of the ball
-    public float scalingVar; // amount to scale ball transform by
-	
-	// Update is called once per frame
-	/*
-	void Update () {
-		// move the ball around.... THIS IS JUST FOR TESTING...
-		float horizontalInput = Input.GetAxis("Horizontal"); // get horizontal key input
-		float verticalInput = Input.GetAxis("Vertical"); // get vertical key input
-		
-		Vector3 inputVector = new Vector3(horizontalInput, 0f, verticalInput); // combine the inputs
+	public ItemPickupUI_KG uiImages;
 
-		rBody.velocity = inputVector * moveSpeed; // set the velocity
-
-        Debug.Log("BallSize = " + ballSize);
-		
-	}
-	*/
+	public int numItems = 0; // num items picked up
 
 	
 	void OnCollisionEnter(Collision coll)
@@ -37,17 +22,21 @@ public class PickUpStuff_ML : MonoBehaviour
         // check to see if the other object is collectible;
         if (otherObject.CompareTag("Item"))
         {
-            float masss = coll.gameObject.GetComponent<SizeKG>().mass;
+            float masss = coll.gameObject.GetComponent<SizeKG>().mass; // get the mass of the object
+	        uiImages.sizescript = coll.gameObject.GetComponent<SizeKG>(); // send object info to the ui
             // check the size here... later
             if (masss <= ballSize)
             {
                 // collect the object!
                 otherObject.transform.parent = transform; // set the objects parent to this transform
-                ballSize += masss;
+                ballSize += masss; // increase mass of basll
+	            numItems++; // increment number of items
                 otherObject.tag = "PickedUpItem";
-                if (ballSize > startBallSize)
+	            otherObject.GetComponent<SphereCollider>().enabled = false;
+                if (numItems % 5 == 0)
                 {
-                    transform.localScale += scalingVar * Vector3.one;
+	                // every 4 items, increase collider size
+	                GetComponent<SphereCollider>().radius += 0.0025f;
                 }
             }
         }
