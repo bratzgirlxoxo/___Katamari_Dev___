@@ -13,12 +13,13 @@ public class ItemPickupUI_KG : MonoBehaviour
 
     public SizeKG sizescript;
 
-	void Start () 
+	
+    void Start () 
     {
-        sizescript = GetComponent<SizeKG>();
 	    thumbnail = GetComponent<Image>();
 	    
     }
+
 	
 	
 	void Update () 

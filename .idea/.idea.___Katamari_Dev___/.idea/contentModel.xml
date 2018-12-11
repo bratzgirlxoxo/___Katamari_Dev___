@@ -8,9 +8,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AI_JZ.cs" t="Include" />
+          <e p="BallSizeUI_KG.cs" t="Include" />
           <e p="CameraController_JZ.cs" t="Include" />
           <e p="ObjectAlign_ML.cs" t="Include" />
           <e p="PickUpStuff_ML.cs" t="Include" />
+          <e p="player_movement_Load_ML.cs" t="Include" />
           <e p="PlayerController_JZ.cs" t="Include" />
           <e p="PlayerMovement_SC.cs" t="Include" />
           <e p="SizeKG.cs" t="Include" />
