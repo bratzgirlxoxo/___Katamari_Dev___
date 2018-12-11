@@ -4,6 +4,8 @@ using UnityEngine;
 
 
 // USAGE: put this on any AI GameObject
+	// make sure the floor has a collider, something the AI can raycast on
+	// and make sure that the collider is exact to the floor (not larger)
 // INTENT: the animal AI NPC will move around randomly on the ground
 
 public class AI_JZ : MonoBehaviour
@@ -45,7 +47,6 @@ public class AI_JZ : MonoBehaviour
 			// always turns to face the destination
 			transform.LookAt(destination);
 			Debug.DrawLine(transform.position, destination, Color.cyan);
-			//TODO: fix it so that the snail faces forward?
 		}
 	}
 
