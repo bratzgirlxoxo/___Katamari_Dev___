@@ -9,17 +9,16 @@ public class PickUpStuff_ML : MonoBehaviour
 {
 
 	public float ballSize; // the size of the ball
+
     public float startBallSize; // the starting size of the ball
     public float scalingVar; // amount to scale ball transform by
 	
-	// Update is called once per frame
-	
-	
-	public ItemPickupUI_KG uiImages;
 
-	public int numItems = 0; // num items picked up
+    public ItemPickupUI_KG uiImages;
 
-	
+    public int numItems = 0; // num items picked up
+
+
 	void OnCollisionEnter(Collision coll)
 	{
 		GameObject otherObject = coll.gameObject; // the gameobject of the thing we collided with
@@ -28,7 +27,6 @@ public class PickUpStuff_ML : MonoBehaviour
         // check to see if the other object is collectible;
         if (otherObject.CompareTag("Item"))
         {
-
 
             float masss = coll.gameObject.GetComponent<SizeKG>().mass; // get the mass of the object
 	        uiImages.sizescript = coll.gameObject.GetComponent<SizeKG>(); // send object info to the ui
@@ -46,6 +44,10 @@ public class PickUpStuff_ML : MonoBehaviour
 
                 otherObject.tag = "PickedUpItem";
 	            otherObject.GetComponent<SphereCollider>().enabled = false;
+
+                SizeKG sizeScript = otherObject.GetComponent<SizeKG>();
+                uiImages.sizescript = sizeScript;
+
                 if (numItems % 5 == 0)
                 {
 	                // every 4 items, increase collider size
