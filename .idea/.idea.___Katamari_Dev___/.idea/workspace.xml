@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f05b00e-06f6-4aa5-b068-6b9fbe3d21c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Models_JZ/snailExpor.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models_JZ/snailExpor.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.___Katamari_Dev___/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AI_JZ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AI_JZ.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +20,12 @@
         <counts>
           <entry key="project.closed" value="8" />
           <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3112" />
+          <entry key="cs" value="3529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3112" />
+          <entry key="C#" value="3529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state relative-caret-position="855">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -64,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -72,19 +75,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
               <folding>
-                <marker date="1543957533187" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543957533187" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
-                <marker date="1543957533187" expanded="true" signature="225:1989" ph="{...}" />
-                <marker date="1543957533187" expanded="true" signature="369:525" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
-                <marker date="1543957533187" expanded="true" signature="735:1480" ph="{...}" />
-                <marker date="1543957533187" expanded="true" signature="958:1477" ph="{...}" />
-                <marker date="1543957533187" expanded="true" signature="1242:1278" ph="{...}" />
-                <marker date="1543957533187" expanded="true" signature="1580:1987" ph="{...}" />
-                <marker date="1543957533187" expanded="true" signature="1861:1931" ph="{...}" />
-                <marker date="1543957533187" expanded="true" signature="1938:1984" ph="{...}" />
+                <marker date="1544563937161" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544563937161" expanded="true" signature="81:396" ph="/* USAGE: put this on any AI GameObject ... */" />
+                <marker date="1544563937161" expanded="true" signature="432:2405" ph="{...}" />
+                <marker date="1544563937161" expanded="true" signature="549:668" ph="/* input all the values of model's original position in the inspector ... */" />
+                <marker date="1544563937161" expanded="true" signature="828:984" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
+                <marker date="1544563937161" expanded="true" signature="1194:1888" ph="{...}" />
+                <marker date="1544563937161" expanded="true" signature="1417:1885" ph="{...}" />
+                <marker date="1544563937161" expanded="true" signature="1701:1737" ph="{...}" />
+                <marker date="1544563937161" expanded="true" signature="1988:2403" ph="{...}" />
+                <marker date="1544563937161" expanded="true" signature="2277:2347" ph="{...}" />
+                <marker date="1544563937161" expanded="true" signature="2354:2400" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,7 +122,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1522" />
     <option name="height" value="1932" />
@@ -129,12 +133,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -189,11 +193,12 @@
       <workItem from="1542747690367" duration="2928000" />
       <workItem from="1543788799020" duration="669000" />
       <workItem from="1543957261082" duration="1479000" />
+      <workItem from="1544563009148" duration="914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11729000" />
+    <option name="totallyTimeSpent" value="12643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -206,8 +211,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2735395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27766323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,33 +274,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="855">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AI_JZ.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
           <folding>
-            <marker date="1543957533187" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543957533187" expanded="true" signature="81:189" ph="/* USAGE: put this on any AI GameObject ... */" />
-            <marker date="1543957533187" expanded="true" signature="225:1989" ph="{...}" />
-            <marker date="1543957533187" expanded="true" signature="369:525" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
-            <marker date="1543957533187" expanded="true" signature="735:1480" ph="{...}" />
-            <marker date="1543957533187" expanded="true" signature="958:1477" ph="{...}" />
-            <marker date="1543957533187" expanded="true" signature="1242:1278" ph="{...}" />
-            <marker date="1543957533187" expanded="true" signature="1580:1987" ph="{...}" />
-            <marker date="1543957533187" expanded="true" signature="1861:1931" ph="{...}" />
-            <marker date="1543957533187" expanded="true" signature="1938:1984" ph="{...}" />
+            <marker date="1544563937161" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544563937161" expanded="true" signature="81:396" ph="/* USAGE: put this on any AI GameObject ... */" />
+            <marker date="1544563937161" expanded="true" signature="432:2405" ph="{...}" />
+            <marker date="1544563937161" expanded="true" signature="549:668" ph="/* input all the values of model's original position in the inspector ... */" />
+            <marker date="1544563937161" expanded="true" signature="828:984" ph="/* set these in the inspector to be slightly larger than the ground the AI is on ... */" />
+            <marker date="1544563937161" expanded="true" signature="1194:1888" ph="{...}" />
+            <marker date="1544563937161" expanded="true" signature="1417:1885" ph="{...}" />
+            <marker date="1544563937161" expanded="true" signature="1701:1737" ph="{...}" />
+            <marker date="1544563937161" expanded="true" signature="1988:2403" ph="{...}" />
+            <marker date="1544563937161" expanded="true" signature="2277:2347" ph="{...}" />
+            <marker date="1544563937161" expanded="true" signature="2354:2400" ph="{...}" />
           </folding>
         </state>
       </provider>
