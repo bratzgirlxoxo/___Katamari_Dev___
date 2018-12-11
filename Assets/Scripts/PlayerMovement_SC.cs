@@ -11,13 +11,16 @@ public class PlayerMovement_SC : MonoBehaviour
 	public float speed = 10;
 	public float gravScale = 0.67f;
 
+	public GameObject player; // player to retrieve the animator
+	private Animator playerAnim; // the animator on the prince
+
 
 	private Vector3 inputVector;
 	
 	void Start () {
 		
 		rb = GetComponent<Rigidbody>();
-	
+		playerAnim = player.GetComponent<Animator>();
 	}
 	
 	
@@ -54,57 +57,17 @@ public class PlayerMovement_SC : MonoBehaviour
 			finalHorz = 0f;
 		}
 
-		inputVector = Camera.main.transform.forward * finalVert + Camera.main.transform.right * finalHorz;
-		
-
-
-
-
-
-
-		/*
-		if (Input.anyKey)
+		if (finalHorz == 0f && finalVert == 0f)
 		{
-			
-			//WASD and IJKL movement 
-			// Move forward when 'W' and 'I' are both pressed down.
-			if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.I))
-			{
-				//rb.AddForce(transform.forward*speed);
-				rb.velocity += transform.forward * speed;
-			}
-			// Move right when 'D' and 'L' are both pressed down.
-			if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.L))
-			{
-				//rb.AddForce(transform.right*speed);
-			}
-
-			// Move left when 'A' and 'J' are both pressed down.
-			if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.J))
-			{
-				//rb.AddForce(-transform.right*speed);
-			}
-		
-			// Move back when 'S' and 'K' are both pressed down.
-			if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.K))
-			{
-				//rb.AddForce(-transform.forward*speed);
-			}
-			
-			
-			
-			
-			
-			
-			
+			playerAnim.SetBool("Running", false);
 		}
 		else
 		{
-			rb.velocity = Vector3.zero;
+			playerAnim.SetBool("Running", true);
 		}
-		*/
 
-
+		inputVector = Camera.main.transform.forward * finalVert + Camera.main.transform.right * finalHorz;
+		
 	}
 
 	void FixedUpdate()

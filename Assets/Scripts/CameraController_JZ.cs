@@ -14,6 +14,9 @@ public class CameraController_JZ : MonoBehaviour
 
 	public float rotateDistance = 10f;
 
+
+	private bool fallAdjust;
+
 	private PlayerMovement_SC moveScript; // the movement script on the ball
 
 	void Start()
@@ -35,22 +38,14 @@ public class CameraController_JZ : MonoBehaviour
 			RotateAroundBall(Vector3.up, transform);
 			RotateAroundBall(Vector3.up, player);
 		}
-	}
-
-	void LateUpdate () {
 		
-		// CAMERA POSITION:
-		// set camera to ball's position with an offset
-
-		//Vector3 offset = new Vector3(0, 1f, -10f); // cam will always stay this distance from ball
-		//transform.position = ballPos.transform.position + offset; // applying new offset pos to camera
-		
-		
-		// CAMERA ROTATION:
-		
-		//transform.LookAt(ballPos.transform.position);
-		// when Q is held, camera will rotate left
-		
+		/*
+		if (!fallAdjust && transform.position.y < player.position.y)
+		{
+			fallAdjust = true;
+			transform.RotateAround(ball.transform.position, transform.right, 35f);
+		}
+		*/
 	}
 
 	void RotateAroundBall(Vector3 direction, Transform thing)
@@ -58,4 +53,18 @@ public class CameraController_JZ : MonoBehaviour
 		thing.RotateAround(ball.transform.position, direction, 20 * lookSpeed * Time.deltaTime);
 
 	}
+
+	/*
+	void OnTriggerEnter(Collider coll)
+	{
+		GameObject otherObj = coll.gameObject;
+		Debug.Log("Collided with something!");
+		if (otherObj.CompareTag("Ground"))
+		{
+			Debug.Log("Reverting");
+			transform.RotateAround(ball.transform.position, -transform.right, 45f);
+			fallAdjust = false;
+		}
+	}
+	*/
 }
