@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // Usage: Put this on the game manager
 // Intent: Reference the ball size and then determine if it exceeds the 
@@ -13,13 +13,22 @@ public class VictoryKG : MonoBehaviour
 
     // Variables:
     public float victorymass;
-    public float ballSize;
 
-    // Images:
-    public GameObject victorySprite;
+
+	// Images:
+	// public GameObject victorySprite;
+
+
+    private PickUpStuff_ML ballsizescript;
+
+	void Start()
+	{
+        ballsizescript = GetComponent<PickUpStuff_ML>();
+	}
 
 	void Update () 
     {
+        float ballSize = ballsizescript.ballSize;
         if(ballSize >= victorymass)
         {
             Victory();
@@ -28,8 +37,7 @@ public class VictoryKG : MonoBehaviour
 
     void Victory()
     {
-        Time.timeScale = 0;
-        victorySprite.SetActive(true);
+        SceneManager.LoadScene("Win");
     }
 
 }
