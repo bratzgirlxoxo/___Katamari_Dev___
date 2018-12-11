@@ -31,7 +31,7 @@ public class TextChanger_KG : MonoBehaviour
         // Reload Scene if we get to the last message
         if (messageIndex > messages.GetUpperBound(0))
         {
-            SceneManager.LoadScene("Level Prototype");
+            SceneManager.LoadScene("ThursdayPlaytestKG");
         }
 
         // Bounds checking

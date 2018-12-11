@@ -16,8 +16,6 @@ public class PickUpStuff_ML : MonoBehaviour
 
     public ItemPickupUI_KG uiImages;
 
-    private SizeKG sizescript;
-
     public int numItems = 0; // num items picked up
 
 
@@ -46,6 +44,10 @@ public class PickUpStuff_ML : MonoBehaviour
 
                 otherObject.tag = "PickedUpItem";
 	            otherObject.GetComponent<SphereCollider>().enabled = false;
+
+                SizeKG sizeScript = otherObject.GetComponent<SizeKG>();
+                uiImages.sizescript = sizeScript;
+
                 if (numItems % 5 == 0)
                 {
 	                // every 4 items, increase collider size
