@@ -60,6 +60,7 @@ public class PlayerMovement_SC : MonoBehaviour
 		if (finalHorz == 0f && finalVert == 0f)
 		{
 			playerAnim.SetBool("Running", false);
+			rb.angularVelocity = new Vector3(0f, 0f, 0f);
 		}
 		else
 		{
