@@ -10,8 +10,9 @@ public class CameraController_JZ : MonoBehaviour
 
 	public float lookSpeed = 10f;
 	public GameObject ball;
+	public GameObject camera;
 	public Transform player;
-
+	public float camHeight;
 	public float rotateDistance = 10f;
 
 
@@ -39,13 +40,14 @@ public class CameraController_JZ : MonoBehaviour
 			RotateAroundBall(Vector3.up, player);
 		}
 		
-		/*
-		if (!fallAdjust && transform.position.y < player.position.y)
+		Ray camRay = new Ray(camera.transform.position, Vector3.down);
+		RaycastHit rayHit = new RaycastHit();
+		float rayDist = 1000f;
+
+		if (Physics.Raycast(camRay, out rayHit, rayDist))
 		{
-			fallAdjust = true;
-			transform.RotateAround(ball.transform.position, transform.right, 35f);
+			camera.transform.position = new Vector3(camera.transform.position.x, rayHit.point.y + camHeight, camera.transform.position.z);
 		}
-		*/
 	}
 
 	void RotateAroundBall(Vector3 direction, Transform thing)
