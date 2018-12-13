@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4898287147737604}
   - component: {fileID: 33517337031965464}
   - component: {fileID: 23562606582802760}
-  - component: {fileID: 135627859494813494}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -39,8 +38,8 @@ GameObject:
   - component: {fileID: 4885952564606296}
   - component: {fileID: 33842858704359408}
   - component: {fileID: 23242948346754614}
-  - component: {fileID: 136289320096642538}
   - component: {fileID: 114364228363259934}
+  - component: {fileID: 135636933609849156}
   m_Layer: 0
   m_Name: Match
   m_TagString: Untagged
@@ -55,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1234259166682738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.765076, y: 11.31, z: -44.63}
+  m_LocalPosition: {x: -16.281301, y: -16.383411, z: 0.35990906}
   m_LocalScale: {x: 0.037978165, y: 1.2016345, z: -0.02347}
   m_Children:
   - {fileID: 4898287147737604}
@@ -171,20 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 1
---- !u!135 &135627859494813494
+--- !u!135 &135636933609849156
 SphereCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1087815658864858}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &136289320096642538
-CapsuleCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -192,7 +179,6 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Radius: 0.25
+  m_Center: {x: -0.00006097555, y: 0, z: -0.00000008940697}
