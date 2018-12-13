@@ -9,6 +9,8 @@ public class PlayerController_JZ : MonoBehaviour
 	public GameObject player;
 	public GameObject cameraPos;
 
+	public float distFromBall; // distance form ball
+
 	//public Transform cameraTransform;
 	
 	void Update () {
@@ -20,7 +22,7 @@ public class PlayerController_JZ : MonoBehaviour
 		RaycastHit rHit = new RaycastHit();
 
 		
-		Vector3 playerPos = transform.position - Camera.main.transform.forward * 4f;
+		Vector3 playerPos = transform.position - Camera.main.transform.forward * distFromBall;
 		Physics.Raycast(groundRay, out rHit, maxRayDist);
 		playerPos = new Vector3(playerPos.x, rHit.point.y, playerPos.z);
 		player.transform.position = playerPos;
