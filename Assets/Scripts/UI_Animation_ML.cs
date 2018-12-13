@@ -17,7 +17,7 @@ public class UI_Animation_ML : MonoBehaviour {
    	{
    		timer += Time.deltaTime;
     
-   		if (timer >= frame_rate)
+   		if (timer >= 1f/frame_rate)
    		{
    			timer = 0;
    			img_idx++;

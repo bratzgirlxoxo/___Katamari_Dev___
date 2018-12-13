@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.Animations;
 
 // USAGE: put this script on the Ball that will be pushed around
 // INTENT: this script controls the sticking of things to the ball
@@ -12,6 +13,8 @@ public class PickUpStuff_ML : MonoBehaviour
 
     public float startBallSize; // the starting size of the ball
     public float scalingVar; // amount to scale ball transform by
+
+	public GameObject cameraPivot;
 	
 
     public ItemPickupUI_KG uiImages;
@@ -35,14 +38,16 @@ public class PickUpStuff_ML : MonoBehaviour
             if (masss <= ballSize)
             {
                 // collect the object!
-                otherObject.transform.parent = transform; // set the objects parent to this transform
+                //otherObject.transform.parent = transform; // set the objects parent to this transform
+	            //otherObject.GetComponent<ParentConstraint>().constraintActive = true;
 
-                ballSize += masss;
-
-                ballSize += masss; // increase mass of basll
+	            otherObject.transform.parent = cameraPivot.transform;
+	            
+                ballSize += masss / 5f; // increase mass of basll
 	            numItems++; // increment number of items
 
                 otherObject.tag = "PickedUpItem";
+	            otherObject.layer = 9;
 	            otherObject.GetComponent<SphereCollider>().enabled = false;
                // otherObject.GetComponent<Transform>().localScale = 0.5f;
 
@@ -53,6 +58,7 @@ public class PickUpStuff_ML : MonoBehaviour
                 {
 	                // every 4 items, increase collider size
 	                GetComponent<SphereCollider>().radius += 0.0025f;
+	                GetComponent<PlayerController_JZ>().distFromBall += 0.25f;
                 }
             }
         }
