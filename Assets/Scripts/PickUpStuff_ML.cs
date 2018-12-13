@@ -43,12 +43,11 @@ public class PickUpStuff_ML : MonoBehaviour
 
 	            otherObject.transform.parent = cameraPivot.transform;
 	            
-                ballSize += masss;
-
-                ballSize += masss; // increase mass of basll
+                ballSize += masss / 5f; // increase mass of basll
 	            numItems++; // increment number of items
 
                 otherObject.tag = "PickedUpItem";
+	            otherObject.layer = 9;
 	            otherObject.GetComponent<SphereCollider>().enabled = false;
 
                 SizeKG sizeScript = otherObject.GetComponent<SizeKG>();
@@ -58,6 +57,7 @@ public class PickUpStuff_ML : MonoBehaviour
                 {
 	                // every 4 items, increase collider size
 	                GetComponent<SphereCollider>().radius += 0.0025f;
+	                GetComponent<PlayerController_JZ>().distFromBall += 0.25f;
                 }
             }
         }

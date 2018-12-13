@@ -16,11 +16,14 @@ public class PlayerMovement_SC : MonoBehaviour
 
 
 	private Vector3 inputVector;
+	private float normalSpeed;
+	private bool onSlope;
 	
 	void Start () {
 		
 		rb = GetComponent<Rigidbody>();
 		playerAnim = player.GetComponent<Animator>();
+		normalSpeed = speed;
 	}
 	
 	
@@ -35,7 +38,29 @@ public class PlayerMovement_SC : MonoBehaviour
 		float horz2 = Input.GetAxis("Horizontal2");
 		Vector2 rightInput = new Vector2(horz2, vert2);
 		
+		
+		// raycast to check normal of current surface ball is on
+		// compare x y and z values of normal to adjust velocity to go up slopes
+		Ray slopeRay = new Ray(transform.position, Vector3.down);
+		float maxRayDist = 100f;
+		RaycastHit rayHit = new RaycastHit();
+		int maskToIgnore = 9;
+		
+		Physics.Raycast(slopeRay, out rayHit, maxRayDist, maskToIgnore);
 
+		Vector3 slopeNormal = rayHit.normal;
+
+		if (slopeNormal.x >= 0.1f || slopeNormal.z > 0.1)
+		{
+			Debug.Log("On Slope!");
+			speed = normalSpeed + 20f;
+		}
+		else
+		{
+			speed = normalSpeed;
+		}
+		
+		 
 		float finalVert;
 		if (Mathf.Abs(vert1) >= 0.001f && Mathf.Abs(vert2) >= 0.001f)
 		{
@@ -68,7 +93,6 @@ public class PlayerMovement_SC : MonoBehaviour
 		}
 
 		inputVector = Camera.main.transform.forward * finalVert + Camera.main.transform.right * finalHorz;
-		
 	}
 
 	void FixedUpdate()

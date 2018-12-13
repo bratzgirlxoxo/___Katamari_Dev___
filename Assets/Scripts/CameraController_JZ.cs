@@ -44,7 +44,7 @@ public class CameraController_JZ : MonoBehaviour
 		RaycastHit rayHit = new RaycastHit();
 		float rayDist = 1000f;
 
-		if (Physics.Raycast(camRay, out rayHit, rayDist))
+		if (Physics.Raycast(camRay, out rayHit, rayDist, 9))
 		{
 			camera.transform.position = new Vector3(camera.transform.position.x, rayHit.point.y + camHeight, camera.transform.position.z);
 		}

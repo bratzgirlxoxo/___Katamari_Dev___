@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23608820284550270}
   - component: {fileID: 135118887253850148}
   - component: {fileID: 114660731889314618}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PushPin
   m_TagString: Item
   m_Icon: {fileID: 0}
