@@ -6,12 +6,19 @@ using UnityEngine;
 // USAGE: put this on any AI GameObject
 	// make sure the floor has a collider, something the AI can raycast on
 	// and make sure that the collider is exact to the floor (not larger)
+	// also make sure that the NPC's X and Z position are positive
 // INTENT: the animal AI NPC will move around randomly on the ground
 
 public class AI_JZ : MonoBehaviour
 {
-
+	// in the inspector, make this Vector3 really close to the model's orig position
 	public Vector3 destination;
+	
+	// input all the values of model's original position in the inspector
+	// will be used lower in script for calculations
+	public float originX;
+	public float originZ;
+	
 	public float moveSpeed = 3f;
 
 	// make sure AI always stays on the same Y-value
@@ -53,9 +60,9 @@ public class AI_JZ : MonoBehaviour
 	// will find a new destination that is within the bounds of the ground
 	void FindNewDestination()
 	{
-		destination = new Vector3(Random.Range(-groundXLength, groundXLength), 
+		destination = new Vector3(Random.Range(-originX, originX + groundXLength), 
 			groundHeight, 
-			Random.Range(-groundZLength, groundZLength));
+			Random.Range(-originZ, originZ + groundZLength));
 			
 		Ray destinationGroundedRay = new Ray(destination, Vector3.down);
 		if (!Physics.Raycast(destinationGroundedRay, groundHeight + 1))

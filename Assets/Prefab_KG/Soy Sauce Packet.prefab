@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1794751251394008}
+  m_RootGameObject: {fileID: 1493667845255726}
   m_IsPrefabAsset: 1
---- !u!1 &1794751251394008
+--- !u!1 &1493667845255726
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4082438728422916}
-  - component: {fileID: 33449324010312926}
-  - component: {fileID: 23495379347165892}
-  - component: {fileID: 114921170839500064}
-  - component: {fileID: 135518691623918568}
+  - component: {fileID: 4859585795912802}
+  - component: {fileID: 33539849553558970}
+  - component: {fileID: 23553316928598252}
+  - component: {fileID: 135200737735867216}
+  - component: {fileID: 114303876054547876}
   m_Layer: 0
-  m_Name: shaomai
+  m_Name: Soy Sauce Packet
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4082438728422916
+--- !u!4 &4859585795912802
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
-  m_LocalRotation: {x: -0, y: 0.119174205, z: -0, w: 0.99287343}
-  m_LocalPosition: {x: -14.8, y: 69.4, z: 251.8}
-  m_LocalScale: {x: 8.504018, y: 8.50402, z: 8.504018}
+  m_GameObject: {fileID: 1493667845255726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100.46185, y: 70.55337, z: 208.49933}
+  m_LocalScale: {x: 0.065757185, y: 0.065757185, z: 0.065757185}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 13.689001, z: 0}
---- !u!23 &23495379347165892
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23553316928598252
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
+  m_GameObject: {fileID: 1493667845255726}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: a91bb601b84321842981c51f9f4f104c, type: 2}
+  - {fileID: 2100000, guid: 31d209f3b87e644d7b9ef976f58466f9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,36 +78,36 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33449324010312926
+--- !u!33 &33539849553558970
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
-  m_Mesh: {fileID: 4300004, guid: 6d827515238066146ba8f37f3c99ac11, type: 3}
---- !u!114 &114921170839500064
+  m_GameObject: {fileID: 1493667845255726}
+  m_Mesh: {fileID: 4300000, guid: 98471d629d7a54f8c9baf53ebccfe3f2, type: 3}
+--- !u!114 &114303876054547876
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
+  m_GameObject: {fileID: 1493667845255726}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 607e9472711a14db0a19f47ffd7f956c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 4.5
-  itemname: Shaomai
-  itemSprite: {fileID: 21300000, guid: a41f9d68697da4728bea6030ef11ebe6, type: 3}
---- !u!135 &135518691623918568
+  mass: 2.5
+  itemname: Soy Sauce Packet
+  itemSprite: {fileID: 21300000, guid: de691f15bcd2345d49576de3a2e2e93a, type: 3}
+--- !u!135 &135200737735867216
 SphereCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
+  m_GameObject: {fileID: 1493667845255726}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6916714
-  m_Center: {x: -0.03458537, y: -0.000000089497156, z: 0}
+  m_Radius: 36.515804
+  m_Center: {x: -0.459454, y: -0.0000072514836, z: -1.1502594}

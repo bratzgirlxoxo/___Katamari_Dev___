@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1794751251394008}
+  m_RootGameObject: {fileID: 1184875384542786}
   m_IsPrefabAsset: 1
---- !u!1 &1794751251394008
+--- !u!1 &1184875384542786
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4082438728422916}
-  - component: {fileID: 33449324010312926}
-  - component: {fileID: 23495379347165892}
-  - component: {fileID: 114921170839500064}
-  - component: {fileID: 135518691623918568}
+  - component: {fileID: 4730508718314970}
+  - component: {fileID: 33106452536603780}
+  - component: {fileID: 23243328458206598}
+  - component: {fileID: 135451130279220458}
+  - component: {fileID: 114518166221221602}
   m_Layer: 0
-  m_Name: shaomai
+  m_Name: Cookie
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4082438728422916
+--- !u!4 &4730508718314970
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
-  m_LocalRotation: {x: -0, y: 0.119174205, z: -0, w: 0.99287343}
-  m_LocalPosition: {x: -14.8, y: 69.4, z: 251.8}
-  m_LocalScale: {x: 8.504018, y: 8.50402, z: 8.504018}
+  m_GameObject: {fileID: 1184875384542786}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 86.639534, y: -2.2, z: 403.22705}
+  m_LocalScale: {x: 0.15711841, y: 0.19708368, z: 0.15711841}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 13.689001, z: 0}
---- !u!23 &23495379347165892
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23243328458206598
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
+  m_GameObject: {fileID: 1184875384542786}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: a91bb601b84321842981c51f9f4f104c, type: 2}
+  - {fileID: 2100000, guid: 21473c4fa77cc4c988f0078eca6a753d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,36 +78,36 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33449324010312926
+--- !u!33 &33106452536603780
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
-  m_Mesh: {fileID: 4300004, guid: 6d827515238066146ba8f37f3c99ac11, type: 3}
---- !u!114 &114921170839500064
+  m_GameObject: {fileID: 1184875384542786}
+  m_Mesh: {fileID: 4300000, guid: cef145b7aff734b2eaffff73a6013bd5, type: 3}
+--- !u!114 &114518166221221602
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
+  m_GameObject: {fileID: 1184875384542786}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 607e9472711a14db0a19f47ffd7f956c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 4.5
-  itemname: Shaomai
-  itemSprite: {fileID: 21300000, guid: a41f9d68697da4728bea6030ef11ebe6, type: 3}
---- !u!135 &135518691623918568
+  mass: 2.5
+  itemname: Cookie
+  itemSprite: {fileID: 21300000, guid: ee2d5956ee9bb4012aa6354353c6e4ff, type: 3}
+--- !u!135 &135451130279220458
 SphereCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1794751251394008}
+  m_GameObject: {fileID: 1184875384542786}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6916714
-  m_Center: {x: -0.03458537, y: -0.000000089497156, z: 0}
+  m_Radius: 23.48409
+  m_Center: {x: -0.00012139561, y: -1.0789316, z: 0}
