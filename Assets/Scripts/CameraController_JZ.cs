@@ -10,9 +10,13 @@ public class CameraController_JZ : MonoBehaviour
 
 	public float lookSpeed = 10f;
 	public GameObject ball;
+	public GameObject camera;
 	public Transform player;
-
+	public float camHeight;
 	public float rotateDistance = 10f;
+
+
+	private bool fallAdjust;
 
 	private PlayerMovement_SC moveScript; // the movement script on the ball
 
@@ -35,22 +39,15 @@ public class CameraController_JZ : MonoBehaviour
 			RotateAroundBall(Vector3.up, transform);
 			RotateAroundBall(Vector3.up, player);
 		}
-	}
+		
+		Ray camRay = new Ray(camera.transform.position, Vector3.down);
+		RaycastHit rayHit = new RaycastHit();
+		float rayDist = 1000f;
 
-	void LateUpdate () {
-		
-		// CAMERA POSITION:
-		// set camera to ball's position with an offset
-
-		//Vector3 offset = new Vector3(0, 1f, -10f); // cam will always stay this distance from ball
-		//transform.position = ballPos.transform.position + offset; // applying new offset pos to camera
-		
-		
-		// CAMERA ROTATION:
-		
-		//transform.LookAt(ballPos.transform.position);
-		// when Q is held, camera will rotate left
-		
+		if (Physics.Raycast(camRay, out rayHit, rayDist, 9))
+		{
+			camera.transform.position = new Vector3(camera.transform.position.x, rayHit.point.y + camHeight, camera.transform.position.z);
+		}
 	}
 
 	void RotateAroundBall(Vector3 direction, Transform thing)
@@ -58,4 +55,18 @@ public class CameraController_JZ : MonoBehaviour
 		thing.RotateAround(ball.transform.position, direction, 20 * lookSpeed * Time.deltaTime);
 
 	}
+
+	/*
+	void OnTriggerEnter(Collider coll)
+	{
+		GameObject otherObj = coll.gameObject;
+		Debug.Log("Collided with something!");
+		if (otherObj.CompareTag("Ground"))
+		{
+			Debug.Log("Reverting");
+			transform.RotateAround(ball.transform.position, -transform.right, 45f);
+			fallAdjust = false;
+		}
+	}
+	*/
 }

@@ -11,13 +11,19 @@ public class PlayerMovement_SC : MonoBehaviour
 	public float speed = 10;
 	public float gravScale = 0.67f;
 
+	public GameObject player; // player to retrieve the animator
+	private Animator playerAnim; // the animator on the prince
+
 
 	private Vector3 inputVector;
+	private float normalSpeed;
+	private bool onSlope;
 	
 	void Start () {
 		
 		rb = GetComponent<Rigidbody>();
-	
+		playerAnim = player.GetComponent<Animator>();
+		normalSpeed = speed;
 	}
 	
 	
@@ -32,7 +38,29 @@ public class PlayerMovement_SC : MonoBehaviour
 		float horz2 = Input.GetAxis("Horizontal2");
 		Vector2 rightInput = new Vector2(horz2, vert2);
 		
+		
+		// raycast to check normal of current surface ball is on
+		// compare x y and z values of normal to adjust velocity to go up slopes
+		Ray slopeRay = new Ray(transform.position, Vector3.down);
+		float maxRayDist = 100f;
+		RaycastHit rayHit = new RaycastHit();
+		int maskToIgnore = 9;
+		
+		Physics.Raycast(slopeRay, out rayHit, maxRayDist, maskToIgnore);
 
+		Vector3 slopeNormal = rayHit.normal;
+
+		if (slopeNormal.x >= 0.1f || slopeNormal.z > 0.1)
+		{
+			Debug.Log("On Slope!");
+			speed = normalSpeed + 20f;
+		}
+		else
+		{
+			speed = normalSpeed;
+		}
+		
+		 
 		float finalVert;
 		if (Mathf.Abs(vert1) >= 0.001f && Mathf.Abs(vert2) >= 0.001f)
 		{
@@ -54,57 +82,17 @@ public class PlayerMovement_SC : MonoBehaviour
 			finalHorz = 0f;
 		}
 
-		inputVector = Camera.main.transform.forward * finalVert + Camera.main.transform.right * finalHorz;
-		
-
-
-
-
-
-
-		/*
-		if (Input.anyKey)
+		if (finalHorz == 0f && finalVert == 0f)
 		{
-			
-			//WASD and IJKL movement 
-			// Move forward when 'W' and 'I' are both pressed down.
-			if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.I))
-			{
-				//rb.AddForce(transform.forward*speed);
-				rb.velocity += transform.forward * speed;
-			}
-			// Move right when 'D' and 'L' are both pressed down.
-			if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.L))
-			{
-				//rb.AddForce(transform.right*speed);
-			}
-
-			// Move left when 'A' and 'J' are both pressed down.
-			if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.J))
-			{
-				//rb.AddForce(-transform.right*speed);
-			}
-		
-			// Move back when 'S' and 'K' are both pressed down.
-			if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.K))
-			{
-				//rb.AddForce(-transform.forward*speed);
-			}
-			
-			
-			
-			
-			
-			
-			
+			playerAnim.SetBool("Running", false);
+			rb.angularVelocity = new Vector3(0f, 0f, 0f);
 		}
 		else
 		{
-			rb.velocity = Vector3.zero;
+			playerAnim.SetBool("Running", true);
 		}
-		*/
 
-
+		inputVector = Camera.main.transform.forward * finalVert + Camera.main.transform.right * finalHorz;
 	}
 
 	void FixedUpdate()
