@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -678,6 +678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSize: 0
+  timerscript: {fileID: 1627615982}
   maxTime: 45
 --- !u!114 &133770903
 MonoBehaviour:
@@ -1556,6 +1557,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {x: -60, y: 67, z: 177}
+  originX: 0
+  originZ: 0
   moveSpeed: 6
   groundHeight: 66.8
   groundXLength: 2
@@ -3984,6 +3987,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {x: -90, y: 4, z: -80}
+  originX: 0
+  originZ: 0
   moveSpeed: 15
   groundHeight: 2
   groundXLength: 5.39
@@ -4233,7 +4238,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 6e07a71dd9131a2418aced593db219c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d329a647cd30b91419e12557be438440, type: 2}
+      objectReference: {fileID: 2100000, guid: 2cbe819225293a04488958f5d0305a1c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e07a71dd9131a2418aced593db219c8, type: 3}
   m_IsPrefabAsset: 0
