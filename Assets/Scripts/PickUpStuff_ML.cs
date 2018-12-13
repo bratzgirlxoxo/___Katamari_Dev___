@@ -49,6 +49,7 @@ public class PickUpStuff_ML : MonoBehaviour
                 otherObject.tag = "PickedUpItem";
 	            otherObject.layer = 9;
 	            otherObject.GetComponent<SphereCollider>().enabled = false;
+               // otherObject.GetComponent<Transform>().localScale = 0.5f;
 
                 SizeKG sizeScript = otherObject.GetComponent<SizeKG>();
                 uiImages.sizescript = sizeScript;
