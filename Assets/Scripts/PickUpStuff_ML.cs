@@ -21,6 +21,13 @@ public class PickUpStuff_ML : MonoBehaviour
 
     public int numItems = 0; // num items picked up
 
+     public bool firstpickup;
+
+	void Start()
+	{
+        firstpickup = false;
+	}
+
 
 	void OnCollisionEnter(Collision coll)
 	{
@@ -45,6 +52,8 @@ public class PickUpStuff_ML : MonoBehaviour
 	            
                 ballSize += masss / 5f; // increase mass of basll
 	            numItems++; // increment number of items
+
+                firstpickup = true;
 
                 otherObject.tag = "PickedUpItem";
 	            otherObject.layer = 9;
