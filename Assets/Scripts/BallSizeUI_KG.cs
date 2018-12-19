@@ -21,7 +21,7 @@ public class BallSizeUI_KG : MonoBehaviour
 	void Update()
 	{
         // pickUp.ballSize /= .5f;  Needs to be fixed to make it a more realistic ball size (NEW FORMULA PLEASE)
-        ballsizetext.text = "Ballsize: " + pickUp.ballSize.ToString() + "cm";
+        ballsizetext.text = "Ballsize: " + pickUp.ballSize.ToString("F2") + "cm";
 	}
 
 }

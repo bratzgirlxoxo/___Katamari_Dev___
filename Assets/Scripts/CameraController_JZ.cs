@@ -46,7 +46,10 @@ public class CameraController_JZ : MonoBehaviour
 
 		if (Physics.Raycast(camRay, out rayHit, rayDist, 9))
 		{
-			camera.transform.position = new Vector3(camera.transform.position.x, rayHit.point.y + camHeight, camera.transform.position.z);
+			if (!(rayHit.point.y < player.position.y))
+			{
+				camera.transform.position = new Vector3(camera.transform.position.x, rayHit.point.y + camHeight, camera.transform.position.z);
+			}
 		}
 	}
 

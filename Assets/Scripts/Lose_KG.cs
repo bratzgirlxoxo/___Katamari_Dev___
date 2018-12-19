@@ -12,7 +12,7 @@ public class Lose_KG : MonoBehaviour
     public float minSize;
 
     private PickUpStuff_ML ballsizescript;
-    private Timer timerscript;
+    public Timer timerscript;
 
     public float maxTime;
 
@@ -21,7 +21,7 @@ public class Lose_KG : MonoBehaviour
 	void Start()
 	{
         ballsizescript = GetComponent<PickUpStuff_ML>();
-        timerscript = GetComponent <Timer>();
+        //timerscript = GetComponent <Timer>();
 	}
 
 
