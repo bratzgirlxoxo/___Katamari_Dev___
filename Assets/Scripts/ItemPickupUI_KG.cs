@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.U2D;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,11 +14,13 @@ public class ItemPickupUI_KG : MonoBehaviour
 
     public SizeKG sizescript;
 
+
+	private PickUpStuff_ML pickupScript;
 	
     void Start () 
     {
 	    thumbnail = GetComponent<Image>();
-	    
+	    pickupScript = GetComponent<PickUpStuff_ML>();
     }
 
 	

@@ -26,9 +26,9 @@ public class Lose_KG : MonoBehaviour
 
 
 
-	void Update () 
-    {
-        float currentTime = timerscript.time;
+	void Update ()
+	{
+	    float currentTime = Time.time;
         float ballsize = ballsizescript.ballSize; 
 		if (ballsize <= minSize)
         {

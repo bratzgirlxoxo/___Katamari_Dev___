@@ -58,7 +58,7 @@ public class PickUpStuff_ML : MonoBehaviour
                 {
 	                // every 4 items, increase collider size
 	                GetComponent<SphereCollider>().radius += 0.0025f;
-	                GetComponent<PlayerController_JZ>().distFromBall += 0.25f;
+	                GetComponent<PlayerController_JZ>().distFromBall += 1f;
                 }
             }
         }
