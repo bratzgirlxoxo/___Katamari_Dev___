@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.UIElements.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -34,9 +33,10 @@ public class Timer : MonoBehaviour {
 
 		myTextDisplay.text = timedisplay;
 		
-		if (time <= 0) 
+		if (time <= 0)
 		{
-			SceneManager.LoadScene("Lose"); 
+			Debug.Log("you win");
+			SceneManager.LoadScene(2); 
 		}
 	}
 }
