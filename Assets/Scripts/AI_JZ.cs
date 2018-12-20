@@ -31,43 +31,46 @@ public class AI_JZ : MonoBehaviour
 	
 	public float maxRayDist = 0.6f; // raycast's max dist is slightly longer than half height of AI
 
+	void Start()
+	{
+		originX = transform.position.x;
+		originZ = transform.position.z;
+	}
+	
+	
 	// Update is called once per frame
 	void Update ()
 	{
-		// groundedRay checks if AI is resting on ground or not
-		Ray groundedRay = new Ray(transform.position, Vector3.down);
+	
+		// AI will always move toward the destination
+		transform.position = Vector3.MoveTowards(transform.position, destination, moveSpeed * Time.deltaTime);
 
-
-		// if AI is grounded, then AI will move around
-		if (Physics.Raycast(groundedRay, maxRayDist))
+		
+		// if reach destination, make a new random destination
+		if (Vector3.Distance(transform.position, destination) < 2f)
 		{
-			// AI will always move toward the destination
-			transform.position = Vector3.MoveTowards(transform.position, destination, moveSpeed * Time.deltaTime);
-
-		
-			// if reach destination, make a new random destination
-			if (Vector3.Distance(transform.position, destination) < 2f)
-			{
-				FindNewDestination();
-			}
-		
-			// always turns to face the destination
-			transform.LookAt(destination);
-			Debug.DrawLine(transform.position, destination, Color.cyan);
+			Debug.Log("seraching 1");
+			FindNewDestination();
 		}
+		
+		// always turns to face the destination
+		transform.LookAt(destination);
+		Debug.DrawLine(transform.position, destination, Color.cyan);
+		
 	}
 
 	// will find a new destination that is within the bounds of the ground
 	void FindNewDestination()
 	{
-		destination = new Vector3(Random.Range(-originX, originX + groundXLength), 
+		destination = new Vector3(Random.Range(originX - groundXLength, originX + groundXLength), 
 			groundHeight, 
-			Random.Range(-originZ, originZ + groundZLength));
-			
+			Random.Range(originZ - groundZLength, originZ + groundZLength));
+		
+		/*
 		Ray destinationGroundedRay = new Ray(destination, Vector3.down);
-		if (!Physics.Raycast(destinationGroundedRay, groundHeight + 1))
+		if (!Physics.Raycast(destinationGroundedRay, 6))
 		{
-			
+			Debug.Log("Searching 2");
 			FindNewDestination();
 			Debug.Log("bad destination");
 		}
@@ -76,5 +79,6 @@ public class AI_JZ : MonoBehaviour
 			Debug.Log("good destination");
 			
 		}
+		*/
 	}
 }

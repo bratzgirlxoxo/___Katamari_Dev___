@@ -17,7 +17,9 @@ ModelImporter:
     400010: transform4
     2100000: lambert1
     2300000: pCylinder4
+    2300002: //RootNode
     3300000: pCylinder4
+    3300002: //RootNode
     4300000: pCylinder4
     2186277476908879412: ImportLogs
   externalObjects: {}
