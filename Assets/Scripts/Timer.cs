@@ -14,29 +14,23 @@ public class Timer : MonoBehaviour {
 	public Text myTextDisplay;
 
 
-	public float time; 
+	[HideInInspector] public float time; 
 	
 	
 	void Update () {
-		time -= Time.deltaTime;
+		if (time >= 0)
+			time -= Time.deltaTime;
 
 
-		String timedisplay = ((int) time / 60).ToString(); 
-		 int seconds  = ((int) time % 60);
+		String timedisplay = ((int) time / 60).ToString() + ":";
+		int seconds  = ((int) time % 60);
+		
 		if (seconds < 10)
 		{
-
 			timedisplay += "0";
 		}
-
-		//timedisplay += seconds; 
+		timedisplay += seconds.ToString(); 
 
 		myTextDisplay.text = timedisplay;
-		
-		if (time <= 0)
-		{
-			Debug.Log("you win");
-			SceneManager.LoadScene(2); 
-		}
 	}
 }

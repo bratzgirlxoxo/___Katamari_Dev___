@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 // Usage: Put this on a Game Manager in the Play scene
 // Intent: This will determine if the player has met the min size for victory and if not it will go to the lose scene
@@ -9,26 +10,23 @@ using UnityEngine.SceneManagement;
 public class Lose_KG : MonoBehaviour 
 {
 
-    public float minSize;
+    public float minSize; // the min required size to win
 
-    private PickUpStuff_ML ballsizescript;
-    public Timer timerscript;
+	public GameObject timer;
 
-    public float maxTime;
+    private PickUpStuff_ML ballsizescript; // the script that determines the size of the ball
 
-
+    public float maxTime; // max time allowed in the level
 
 	void Start()
 	{
         ballsizescript = GetComponent<PickUpStuff_ML>();
-        //timerscript = GetComponent <Timer>();
+		timer.GetComponent<Timer>().time = maxTime;
 	}
 
-
-
-	void Update () 
-    {
-        float currentTime = timerscript.time;
+	void Update ()
+	{
+		float currentTime = Time.timeSinceLevelLoad;
         float ballsize = ballsizescript.ballSize; 
 		if (ballsize <= minSize)
         {
@@ -36,10 +34,6 @@ public class Lose_KG : MonoBehaviour
             {
                 SceneManager.LoadScene("Lose");
             }
-        }
-        else 
-        {
-            SceneManager.LoadScene("Win");
         }
 	}
 }

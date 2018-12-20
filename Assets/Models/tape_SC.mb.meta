@@ -35,12 +35,15 @@ ModelImporter:
     2300000: pCube6
     2300002: pCube7
     2300004: pCylinder10
+    2300006: //RootNode
     3300000: pCube6
     3300002: pCube7
     3300004: pCylinder10
+    3300006: //RootNode
     4300000: pCube6
     4300002: pCylinder10
     4300004: pCube7
+    4300006: pCube8
   externalObjects: {}
   materials:
     importMaterials: 1

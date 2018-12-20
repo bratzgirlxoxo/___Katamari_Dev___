@@ -10,21 +10,24 @@ public class PickUpStuff_ML : MonoBehaviour
 {
 
 	public float ballSize; // the size of the ball
-
     public float startBallSize; // the starting size of the ball
     public float scalingVar; // amount to scale ball transform by
 
+	public GameObject camera;
 	public GameObject cameraPivot;
+	public GameObject sizeAnimation;
 	
 
     public ItemPickupUI_KG uiImages;
 
-    public int numItems = 0; // num items picked up
+    [HideInInspector] public int numItems = 0; // num items picked up
+    [HideInInspector] public bool firstpickup;
 
-     public bool firstpickup;
+	private AudioSource pickUpSound;
 
 	void Start()
 	{
+		pickUpSound = GetComponent<AudioSource>();
         firstpickup = false;
 	}
 
@@ -39,36 +42,40 @@ public class PickUpStuff_ML : MonoBehaviour
         {
 
             float masss = coll.gameObject.GetComponent<SizeKG>().mass; // get the mass of the object
-	        uiImages.sizescript = coll.gameObject.GetComponent<SizeKG>(); // send object info to the ui
-
+	        
             // check the size here... later
             if (masss <= ballSize)
             {
                 // collect the object!
                 //otherObject.transform.parent = transform; // set the objects parent to this transform
 	            //otherObject.GetComponent<ParentConstraint>().constraintActive = true;
-
+	            
 	            otherObject.transform.parent = cameraPivot.transform;
 	            
                 ballSize += masss / 5f; // increase mass of basll
 	            numItems++; // increment number of items
 
-                firstpickup = true;
+                firstpickup = true; // used to turn on the thumbnail UI
 
-                otherObject.tag = "PickedUpItem";
-	            otherObject.layer = 9;
-	            otherObject.GetComponent<SphereCollider>().enabled = false;
-               // otherObject.GetComponent<Transform>().localScale = 0.5f;
+                otherObject.tag = "PickedUpItem"; // change tag to picked up
+	            otherObject.layer = 9; // change layer of object so that raycasts ignore it
+	            otherObject.GetComponent<SphereCollider>().enabled = false; // disable the collider of the object
 
                 SizeKG sizeScript = otherObject.GetComponent<SizeKG>();
                 uiImages.sizescript = sizeScript;
 
+	            pickUpSound.PlayOneShot(pickUpSound.clip); // play the pick up sound
+	            
                 if (numItems % 5 == 0)
                 {
-	                // every 4 items, increase collider size
-	                GetComponent<SphereCollider>().radius += 0.0025f;
-	                GetComponent<PlayerController_JZ>().distFromBall += 1f;
+	                // every 5 items, increase size and move player away from ball
+	                transform.localScale += Vector3.one * scalingVar;
+	                //GetComponent<SphereCollider>().radius += 0.0025f;
+	                GetComponent<PlayerController_JZ>().distFromBall += 1.25f;
+	                camera.transform.position -= camera.transform.forward * 1.5f + new Vector3(0f, 1f, 0f);
                 }
+
+	            sizeAnimation.transform.localScale *= 1.025f; // scale up the animation in the top right corner
             }
         }
 	}

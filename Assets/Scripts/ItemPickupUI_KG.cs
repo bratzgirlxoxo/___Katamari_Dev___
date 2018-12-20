@@ -8,29 +8,31 @@ using UnityEngine.UI;
 
 public class ItemPickupUI_KG : MonoBehaviour 
 {
-    Text itemName;
-    Image thumbnail;
+    public Text itemName;
+    private Image thumbnail;
 
-    public SizeKG sizescript;
+    [HideInInspector] public SizeKG sizescript;
 
 
-    private PickUpStuff_ML pickupScript;
+    public PickUpStuff_ML pickupScript;
 	
     void Start () 
     {
-        pickupScript = GetComponent<PickUpStuff_ML>();
 	    thumbnail = GetComponent<Image>();
         thumbnail.enabled = false;
+	    itemName.enabled = false;
     }
 
 	
 	
 	void Update () 
     {
-        if (pickupScript.firstpickup = true ){
+        if (pickupScript.firstpickup){
             thumbnail.enabled = true;
+	        itemName.enabled = true;
+	        itemName.text = sizescript.itemname;
+	        thumbnail.sprite = sizescript.itemSprite;
         }
-        itemName.text = sizescript.itemname;
-        thumbnail.sprite = sizescript.itemSprite;
+        
 	}
 }

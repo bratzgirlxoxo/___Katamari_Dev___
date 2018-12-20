@@ -12,6 +12,7 @@ public class UI_Animation_ML : MonoBehaviour {
    	private float timer = 0;
     
    	public float frame_rate;
+
     	// Update is called once per frame
    	void Update ()
    	{
